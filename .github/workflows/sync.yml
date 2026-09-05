@@ -1,0 +1,36 @@
+# Self-sync: pull new release manifests + corrections from the live archive (all public data).
+# No secrets — GITHUB_TOKEN pushes to this repo only.
+name: Sync manifests from live archive
+on:
+  schedule:
+    - cron: '43 7 * * *' # daily ~08:43 CH
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v5
+      - name: Pull manifests from swisslivingindex.ch/archive
+        run: |
+          set -e
+          curl -sf https://swisslivingindex.ch/archive/index.json -o releases-index.json
+          python3 - <<'PY'
+          import json, os, urllib.request
+          idx = json.load(open('releases-index.json'))
+          for r in idx['releases']:
+              rel = r['release']; d = f'manifests/{rel}'
+              if not os.path.exists(f'{d}/manifest.json'):
+                  os.makedirs(d, exist_ok=True)
+                  urllib.request.urlretrieve(f'https://swisslivingindex.ch/archive/{rel}/manifest.json', f'{d}/manifest.json')
+                  print('added', rel)
+          json.dump({'corrections': idx.get('corrections_register', [])}, open('corrections.json','w'), indent=1)
+          PY
+      - name: Commit if changed
+        run: |
+          git config user.name "sli-manifests-bot"
+          git config user.email "info@swisslivingindex.ch"
+          git add -A
+          git diff --cached --quiet || (git commit -m "sync: $(date -u +%F)" && git push)
