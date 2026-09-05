@@ -1,0 +1,350 @@
+{
+  "release": "SLI-2026-09-04.1",
+  "created": "2026-09-04T21:22:06.543Z",
+  "fingerprint": "fe4c32490114da0549f3f075be8d435ad568fda8c5d4c3666a617e89b6bad935",
+  "git_commit": "cf3f175e1e69b373a015fcc4ca247359569367d1",
+  "license": "CC BY 4.0 (compilation) — upstream datasets remain under their official Swiss federal terms",
+  "attribution": "Swiss Living Index — powered by Mirabello Consultancy",
+  "note": "Immutable release. Surfaces + canton-level sources are archived verbatim (content-addressed under /archive/objects/). Commune-scale sources exceed public file limits; their SHA-256 + git commit pin them immutably in the project history. Corrections never edit a release — they create a new one, logged in the corrections register.",
+  "surfaces": {
+    "index.json": {
+      "sha256": "69f2f172162bdac6cd1f606acea917649356ac745629b8360335cb7a2580cb02",
+      "bytes": 68865
+    },
+    "trends.json": {
+      "sha256": "76f275bf2924169b13ea63cabc8da0716dcdc00968b3a39d98725fb329abadd9",
+      "bytes": 95489
+    }
+  },
+  "sources": [
+    {
+      "path": "data/climate/sunshine-cantons.json",
+      "sha256": "005d3e69ccaede729c89dbda44419043f3f78f666d3d10d34195c7f882e1e36a",
+      "bytes": 177850,
+      "object": "objects/005d3e69ccaede72-sunshine-cantons.json"
+    },
+    {
+      "path": "data/climate/sunshine-switzerland.json",
+      "sha256": "2e5b51f1532971c23cdc2ecb08fe3f014d558b59110d8a7aba082952bce9eead",
+      "bytes": 12178,
+      "object": "objects/2e5b51f1532971c2-sunshine-switzerland.json"
+    },
+    {
+      "path": "data/commune-backbone.json",
+      "sha256": "45ba8e4662419b5ab3e9ad5a162b728cbcb8dc24d15e17a7215d4acd5aed8d14",
+      "bytes": 395531,
+      "object": "objects/45ba8e4662419b5a-commune-backbone.json"
+    },
+    {
+      "path": "data/composition/population-composition-cantons.json",
+      "sha256": "023b46952cbf584d2c75aab7241e23197c2b67c6fce0c0d65eaa6dc7aad8d16f",
+      "bytes": 247110,
+      "object": "objects/023b46952cbf584d-population-composition-cantons.json"
+    },
+    {
+      "path": "data/composition/population-composition-communes.json",
+      "sha256": "e813153b6746d854d01209f9ecde3e558153102571aca30023949034a185b72a",
+      "bytes": 10962363,
+      "object": null
+    },
+    {
+      "path": "data/composition/population-composition-switzerland.json",
+      "sha256": "12bfdcb0268639a95be4e550144fdd2334bfaad45810ce4693d3c03844de3421",
+      "bytes": 10065,
+      "object": "objects/12bfdcb0268639a9-population-composition-switzerland.json"
+    },
+    {
+      "path": "data/corrections.json",
+      "sha256": "d4250593944fc60ff5ac5747be04de1530391cea76b49c8ffb5eb205cbad4816",
+      "bytes": 19,
+      "object": "objects/d4250593944fc60f-corrections.json"
+    },
+    {
+      "path": "data/cost/cost-reference.json",
+      "sha256": "732062bc3a161eba1e8ea8c23d8c49767e335db4fb79baa31f7843b42ef79664",
+      "bytes": 3829,
+      "object": "objects/732062bc3a161eba-cost-reference.json"
+    },
+    {
+      "path": "data/cost/electricity-cantons.json",
+      "sha256": "dd5fb2d1d85e6602fcd6e79c990087309a0604cdbbaab43d0a525692431d4e87",
+      "bytes": 29388,
+      "object": "objects/dd5fb2d1d85e6602-electricity-cantons.json"
+    },
+    {
+      "path": "data/cost/health-premiums-cantons.json",
+      "sha256": "48af1f4ff2af2dc4cb0bd1f1cfd718c3844548f5d71461ae7df9dccd31d17255",
+      "bytes": 5426,
+      "object": "objects/48af1f4ff2af2dc4-health-premiums-cantons.json"
+    },
+    {
+      "path": "data/cost/household-budget.json",
+      "sha256": "8596bb6b3f4939aacf4366c9fa01db24ab12f9dc742852c8515dacb1329ff15c",
+      "bytes": 8020,
+      "object": "objects/8596bb6b3f4939aa-household-budget.json"
+    },
+    {
+      "path": "data/cost/rent-cantons.json",
+      "sha256": "f80d2780076c3e3f6cc204db7f91a5f4b930702a7cf8a08eaba65dae226c9918",
+      "bytes": 96758,
+      "object": "objects/f80d2780076c3e3f-rent-cantons.json"
+    },
+    {
+      "path": "data/cost/tax-burden-cantons.json",
+      "sha256": "d903cbd4fbe8ced6ce9ac30df285ff792049d498c3723ee805ec527800e70821",
+      "bytes": 19557,
+      "object": "objects/d903cbd4fbe8ced6-tax-burden-cantons.json"
+    },
+    {
+      "path": "data/demographics/civil-status-cantons.json",
+      "sha256": "ff4a55aed6a9c0d803a0aaf7d19fdbdef22303a9bcb05eec3f705e85b5494173",
+      "bytes": 70391,
+      "object": "objects/ff4a55aed6a9c0d8-civil-status-cantons.json"
+    },
+    {
+      "path": "data/demographics/civil-status-communes.json",
+      "sha256": "bfcbc02c342198bc544133cdf23ed0e8c17ed5a8fa16f2dd1ac21eb617451e8b",
+      "bytes": 5414497,
+      "object": null
+    },
+    {
+      "path": "data/demographics/civil-status-switzerland.json",
+      "sha256": "b0175d0f5f4fd2c7a5c000433586c71bd1ae03a14caee7f3a004f4c8e530b906",
+      "bytes": 3235,
+      "object": "objects/b0175d0f5f4fd2c7-civil-status-switzerland.json"
+    },
+    {
+      "path": "data/demographics/deaths-cantons.json",
+      "sha256": "133ec9b4e6e8bdedd84d25702c71db2609fcac90e5d19f4581e1c2cddba9cf08",
+      "bytes": 16000,
+      "object": "objects/133ec9b4e6e8bded-deaths-cantons.json"
+    },
+    {
+      "path": "data/demographics/deaths-communes.json",
+      "sha256": "5851831ff6b3fb8fb236ec1113d4f4d7bba912bc97edf006d8040183472e2dea",
+      "bytes": 1241640,
+      "object": "objects/5851831ff6b3fb8f-deaths-communes.json"
+    },
+    {
+      "path": "data/demographics/deaths-switzerland.json",
+      "sha256": "f785120562ad4555ace1616efcad01801de7a81d3f04ae9b13ad50e94b5d0baf",
+      "bytes": 1087,
+      "object": "objects/f785120562ad4555-deaths-switzerland.json"
+    },
+    {
+      "path": "data/economy/establishments-jobs-cantons.json",
+      "sha256": "67f992b9ea6a1519a07c127c6be5c751bc5d455bf466dad1442cbc66abee15d5",
+      "bytes": 46101,
+      "object": "objects/67f992b9ea6a1519-establishments-jobs-cantons.json"
+    },
+    {
+      "path": "data/economy/establishments-jobs-communes.json",
+      "sha256": "b874b4ea8b59b8f06adf7e30a4469490ac61c0ed61b269840bd932eaa356104b",
+      "bytes": 3427656,
+      "object": null
+    },
+    {
+      "path": "data/economy/establishments-jobs-switzerland.json",
+      "sha256": "6410bb5e91c626a44dd869c589b4934c2a5a9feb2065ee2bf93542ca73eed79c",
+      "bytes": 2290,
+      "object": "objects/6410bb5e91c626a4-establishments-jobs-switzerland.json"
+    },
+    {
+      "path": "data/education/university-fields.json",
+      "sha256": "09fab887fe752835139fc67a231512eada2d3e45ce60f12eef1bd70c62aab9f1",
+      "bytes": 19195,
+      "object": "objects/09fab887fe752835-university-fields.json"
+    },
+    {
+      "path": "data/education/university-foreign-students.json",
+      "sha256": "a2417ca82327937549ed3eab3b50bdf4820b59009cce8a5e6eb487864f19c051",
+      "bytes": 83850,
+      "object": "objects/a2417ca823279375-university-foreign-students.json"
+    },
+    {
+      "path": "data/field-lineage.json",
+      "sha256": "f24caa9b78727e7f96e6d2be29ff16632ca5646ec8119e9776ac3bc532e3f3c1",
+      "bytes": 14139,
+      "object": "objects/f24caa9b78727e7f-field-lineage.json"
+    },
+    {
+      "path": "data/finance/cantonal-finance-cantons.json",
+      "sha256": "7a307a85cfc79c58dafa754eba3adfa6627bcb7039fdcebe325cf1452389e153",
+      "bytes": 221906,
+      "object": "objects/7a307a85cfc79c58-cantonal-finance-cantons.json"
+    },
+    {
+      "path": "data/finance/cantonal-finance-switzerland.json",
+      "sha256": "95c22b2e8ff18f808e4500943ac75d9be5a64984816b8a6c74f2f97c52466583",
+      "bytes": 5784,
+      "object": "objects/95c22b2e8ff18f80-cantonal-finance-switzerland.json"
+    },
+    {
+      "path": "data/health/hospital-infrastructure-cantons.json",
+      "sha256": "1442070a80cc2aa59a59192c4c1fed7e82e93c7ab7a89631d9ac18ed35f193bf",
+      "bytes": 71415,
+      "object": "objects/1442070a80cc2aa5-hospital-infrastructure-cantons.json"
+    },
+    {
+      "path": "data/health/hospital-infrastructure-switzerland.json",
+      "sha256": "fd5c0f13a6cb0e56b661a8ac629ec6cef30a33bcbb4326231d824712f9414ba2",
+      "bytes": 3356,
+      "object": "objects/fd5c0f13a6cb0e56-hospital-infrastructure-switzerland.json"
+    },
+    {
+      "path": "data/health/hospital-staff-cantons.json",
+      "sha256": "87c4de96f42c50d87b73657b33c895b553187fe24545e18861925adfdf743b9e",
+      "bytes": 39918,
+      "object": "objects/87c4de96f42c50d8-hospital-staff-cantons.json"
+    },
+    {
+      "path": "data/health/hospital-staff-switzerland.json",
+      "sha256": "e746dc89521c3f08963d12f0529944b8375ee0d5f6f08e42e1aa19f9a5bf3411",
+      "bytes": 1949,
+      "object": "objects/e746dc89521c3f08-hospital-staff-switzerland.json"
+    },
+    {
+      "path": "data/health/nursing-homes-cantons.json",
+      "sha256": "023d037de4de76f7813a4819ac251c7110ad851bd8f2c533cef9ab66ac729db6",
+      "bytes": 101512,
+      "object": "objects/023d037de4de76f7-nursing-homes-cantons.json"
+    },
+    {
+      "path": "data/health/nursing-homes-switzerland.json",
+      "sha256": "052653ce7007c8441e6cc2552238ffa489b8112a663d299a31708c5c3826256e",
+      "bytes": 4411,
+      "object": "objects/052653ce7007c844-nursing-homes-switzerland.json"
+    },
+    {
+      "path": "data/housing/vacancy-cantons.json",
+      "sha256": "360ece68e1ea13f5eb09db38172d44639a302a2db3785f262cfc1278018283d0",
+      "bytes": 3811,
+      "object": "objects/360ece68e1ea13f5-vacancy-cantons.json"
+    },
+    {
+      "path": "data/migration/canton-od-matrix.json",
+      "sha256": "9a293bd3a29bbe1bba2aeadf14299a0d4e6c07e237c30dbb4321d98ec51a4b8e",
+      "bytes": 277432,
+      "object": "objects/9a293bd3a29bbe1b-canton-od-matrix.json"
+    },
+    {
+      "path": "data/migration/migration-by-origin-cantons.json",
+      "sha256": "f86b278acaf0ad6443de461e5fe777469253499b8a723a384df792f9f252d64a",
+      "bytes": 485450,
+      "object": "objects/f86b278acaf0ad64-migration-by-origin-cantons.json"
+    },
+    {
+      "path": "data/migration/migration-by-origin-communes.json",
+      "sha256": "a2ecb545b0818c393a350fba0875fdc6924dd1b55f260d235e41142f9981172a",
+      "bytes": 20114136,
+      "object": null
+    },
+    {
+      "path": "data/migration/migration-by-origin-switzerland.json",
+      "sha256": "48ec4160349487e695032e53ca814b2892febe28932c1ae6e2fa7cbf1f2265cf",
+      "bytes": 18819,
+      "object": "objects/48ec4160349487e6-migration-by-origin-switzerland.json"
+    },
+    {
+      "path": "data/migration/migration-cantons.json",
+      "sha256": "390f829c7738367af474f80498227a8a4a3be9f22834fbea3b975c365bba44ff",
+      "bytes": 470066,
+      "object": "objects/390f829c7738367a-migration-cantons.json"
+    },
+    {
+      "path": "data/migration/migration-communes.json",
+      "sha256": "5d9b00768c7add7e645e125cca2b849449c85f81b7164cefb38ccbd6874877b5",
+      "bytes": 22381211,
+      "object": null
+    },
+    {
+      "path": "data/migration/migration-switzerland.json",
+      "sha256": "f0ccba451bb8de3664e4c3bb0e5173fed3f0454dbe3ec4d1a695bf650132032d",
+      "bytes": 18865,
+      "object": "objects/f0ccba451bb8de36-migration-switzerland.json"
+    },
+    {
+      "path": "data/naturalisation/naturalisations-by-country-cantons.json",
+      "sha256": "c157d46f99d187978c604e4314ff78c26277d16150215e9e5c37645adaca008e",
+      "bytes": 383130,
+      "object": "objects/c157d46f99d18797-naturalisations-by-country-cantons.json"
+    },
+    {
+      "path": "data/naturalisation/naturalisations-by-origin-cantons.json",
+      "sha256": "b22c6922830457de08502fc685afb3e395cf88820bfc848dc601a8642fde9101",
+      "bytes": 66979,
+      "object": "objects/b22c6922830457de-naturalisations-by-origin-cantons.json"
+    },
+    {
+      "path": "data/naturalisation/naturalisations-by-origin-communes.json",
+      "sha256": "5697f5ab21365068d3d27e1d5330eb599c854b403b9e222dce369d049e812521",
+      "bytes": 5207797,
+      "object": null
+    },
+    {
+      "path": "data/naturalisation/naturalisations-by-origin-switzerland.json",
+      "sha256": "3ce6f76e67072943e5c80076fa98c9af135dc62483599e3bc51e579f26f150b6",
+      "bytes": 3479,
+      "object": "objects/3ce6f76e67072943-naturalisations-by-origin-switzerland.json"
+    },
+    {
+      "path": "data/naturalisation/naturalisations-by-type-cantons.json",
+      "sha256": "af392100df656b1a4e2316c7eab0a4abb2fb581bf78b9b97c5747cce994f7884",
+      "bytes": 42403,
+      "object": "objects/af392100df656b1a-naturalisations-by-type-cantons.json"
+    },
+    {
+      "path": "data/official-sources.json",
+      "sha256": "de28d1bb9233884cf656fb9b904122d83468b6d0ab4dfb91d81f6e654d909de4",
+      "bytes": 44387,
+      "object": "objects/de28d1bb9233884c-official-sources.json"
+    },
+    {
+      "path": "data/permits/permit-population-cantons.json",
+      "sha256": "e0b27d2a586b8a340bcf788bc191526f9e64a9fdbc7d1bc2bc46fb7ac27026b8",
+      "bytes": 149826,
+      "object": "objects/e0b27d2a586b8a34-permit-population-cantons.json"
+    },
+    {
+      "path": "data/permits/permit-population-switzerland.json",
+      "sha256": "1f6dc89096bb67e43c6b826b66c67962b0eda0e99e30cba83666613d745dbfa8",
+      "bytes": 6295,
+      "object": "objects/1f6dc89096bb67e4-permit-population-switzerland.json"
+    },
+    {
+      "path": "data/refresh-config.json",
+      "sha256": "1564244eafb11cf95d5eb9ad44a09acde89518b77a1abfa800a4210531d5ecee",
+      "bytes": 5007,
+      "object": "objects/1564244eafb11cf9-refresh-config.json"
+    },
+    {
+      "path": "data/refresh-state.json",
+      "sha256": "5e0ab90c776835737cfd7115cac2ebe3b9e5136b6b6805e79c830d434133b8f1",
+      "bytes": 933,
+      "object": "objects/5e0ab90c77683573-refresh-state.json"
+    },
+    {
+      "path": "data/safety/crime-cantons.json",
+      "sha256": "83b721749c6107d7c2bdc3582f0cee0d89799056d58ee29831d1f15b99e62f86",
+      "bytes": 46952,
+      "object": "objects/83b721749c6107d7-crime-cantons.json"
+    },
+    {
+      "path": "data/scenarios/population-scenarios-cantons.json",
+      "sha256": "e7ea546816e97e15352c5e8cdf5ba8ec59ebf026f41ae6cf45bd042379751165",
+      "bytes": 336702,
+      "object": "objects/e7ea546816e97e15-population-scenarios-cantons.json"
+    },
+    {
+      "path": "data/scenarios/population-scenarios-switzerland.json",
+      "sha256": "27f2fa37d7a1f1ff8c90445a2e2af3157c558b01a9ba5dbdd1ab8739cf5b2261",
+      "bytes": 13053,
+      "object": "objects/27f2fa37d7a1f1ff-population-scenarios-switzerland.json"
+    }
+  ],
+  "counts": {
+    "sources": 54,
+    "archived_public": 48,
+    "repo_pinned_only": 6
+  }
+}
