@@ -1,0 +1,1886 @@
+{
+  "release": "SLI-2026-09-05.7",
+  "created": "2026-09-05T14:12:31.706Z",
+  "fingerprint": "6744d71865e627f83a233d14699703059f0b182aed5977a04da97516870b2d0f",
+  "git_commit": "e407091da03cc98141605850245a8a0db5421a96",
+  "license": "CC BY 4.0 (compilation) — upstream datasets remain under their official Swiss federal terms",
+  "attribution": "Swiss Living Index — powered by Mirabello Consultancy",
+  "note": "Immutable release. Surfaces + canton-level sources are archived verbatim (content-addressed under /archive/objects/). Commune-scale sources exceed public file limits; their SHA-256 + git commit pin them immutably in the project history. Corrections never edit a release — they create a new one, logged in the corrections register.",
+  "surfaces": {
+    "index.json": {
+      "sha256": "d4064c963d244d986fe56823d4b7741753a7fe2e0c1ec5fdafc8cffdc2dd231f",
+      "bytes": 113511
+    },
+    "trends.json": {
+      "sha256": "e1019b1a08c3a048c0d85b9e60ec84f3697de650823534d5aad2072d863de367",
+      "bytes": 167297
+    }
+  },
+  "sources": [
+    {
+      "path": "data/calendar/swiss-year.json",
+      "sha256": "1e45a3f7cfd165bc93a46b24db6281ff8fa38f78b889b372c1b72db12cbd0982",
+      "bytes": 10071,
+      "object": "objects/1e45a3f7cfd165bc-swiss-year.json"
+    },
+    {
+      "path": "data/climate/sunshine-cantons.json",
+      "sha256": "005d3e69ccaede729c89dbda44419043f3f78f666d3d10d34195c7f882e1e36a",
+      "bytes": 177850,
+      "object": "objects/005d3e69ccaede72-sunshine-cantons.json"
+    },
+    {
+      "path": "data/climate/sunshine-switzerland.json",
+      "sha256": "2e5b51f1532971c23cdc2ecb08fe3f014d558b59110d8a7aba082952bce9eead",
+      "bytes": 12178,
+      "object": "objects/2e5b51f1532971c2-sunshine-switzerland.json"
+    },
+    {
+      "path": "data/commune-backbone.json",
+      "sha256": "45ba8e4662419b5ab3e9ad5a162b728cbcb8dc24d15e17a7215d4acd5aed8d14",
+      "bytes": 395531,
+      "object": "objects/45ba8e4662419b5a-commune-backbone.json"
+    },
+    {
+      "path": "data/composition/population-composition-cantons.json",
+      "sha256": "c5c275de954f3fd7cd4683e9b91613b519fa074d2e0d97be7f41fb8d332463fd",
+      "bytes": 252661,
+      "object": "objects/c5c275de954f3fd7-population-composition-cantons.json"
+    },
+    {
+      "path": "data/composition/population-composition-communes.json",
+      "sha256": "4b222c3a4f573e580db0af1b566a2bc09aa4fb52629d8528b7fe086ea28087c8",
+      "bytes": 11127203,
+      "object": null
+    },
+    {
+      "path": "data/composition/population-composition-switzerland.json",
+      "sha256": "17952e08e795af6f843ce7bd1b991f21b7356c33cc66526729fbbccb44e0f2d0",
+      "bytes": 10278,
+      "object": "objects/17952e08e795af6f-population-composition-switzerland.json"
+    },
+    {
+      "path": "data/corrections.json",
+      "sha256": "d4250593944fc60ff5ac5747be04de1530391cea76b49c8ffb5eb205cbad4816",
+      "bytes": 19,
+      "object": "objects/d4250593944fc60f-corrections.json"
+    },
+    {
+      "path": "data/cost/cost-reference.json",
+      "sha256": "732062bc3a161eba1e8ea8c23d8c49767e335db4fb79baa31f7843b42ef79664",
+      "bytes": 3829,
+      "object": "objects/732062bc3a161eba-cost-reference.json"
+    },
+    {
+      "path": "data/cost/electricity-cantons.json",
+      "sha256": "dd5fb2d1d85e6602fcd6e79c990087309a0604cdbbaab43d0a525692431d4e87",
+      "bytes": 29388,
+      "object": "objects/dd5fb2d1d85e6602-electricity-cantons.json"
+    },
+    {
+      "path": "data/cost/health-premiums-cantons.json",
+      "sha256": "48af1f4ff2af2dc4cb0bd1f1cfd718c3844548f5d71461ae7df9dccd31d17255",
+      "bytes": 5426,
+      "object": "objects/48af1f4ff2af2dc4-health-premiums-cantons.json"
+    },
+    {
+      "path": "data/cost/household-budget.json",
+      "sha256": "8596bb6b3f4939aacf4366c9fa01db24ab12f9dc742852c8515dacb1329ff15c",
+      "bytes": 8020,
+      "object": "objects/8596bb6b3f4939aa-household-budget.json"
+    },
+    {
+      "path": "data/cost/rent-cantons.json",
+      "sha256": "f80d2780076c3e3f6cc204db7f91a5f4b930702a7cf8a08eaba65dae226c9918",
+      "bytes": 96758,
+      "object": "objects/f80d2780076c3e3f-rent-cantons.json"
+    },
+    {
+      "path": "data/cost/tax-burden-cantons.json",
+      "sha256": "d903cbd4fbe8ced6ce9ac30df285ff792049d498c3723ee805ec527800e70821",
+      "bytes": 19557,
+      "object": "objects/d903cbd4fbe8ced6-tax-burden-cantons.json"
+    },
+    {
+      "path": "data/demand/demand-harvest-2026-09-05.json",
+      "sha256": "8287f1c660f78b79c9e340d407da0b7277e94c65f3d945946f2e36c5eb10efa8",
+      "bytes": 192854,
+      "object": "objects/8287f1c660f78b79-demand-harvest-2026-09-05.json"
+    },
+    {
+      "path": "data/demand/trending-questions.json",
+      "sha256": "56af36a7ea7153b06a7ced406ac12e9e50d6e0769c640590811519e3e8f65e4b",
+      "bytes": 9023,
+      "object": "objects/56af36a7ea7153b0-trending-questions.json"
+    },
+    {
+      "path": "data/demographics/births-cantons.json",
+      "sha256": "8296b0870e18fbe76d117f56eb2d1f94cee70cd020e3180b0b17a17337ab0b21",
+      "bytes": 2229660,
+      "object": null
+    },
+    {
+      "path": "data/demographics/civil-status-cantons.json",
+      "sha256": "ff4a55aed6a9c0d803a0aaf7d19fdbdef22303a9bcb05eec3f705e85b5494173",
+      "bytes": 70391,
+      "object": "objects/ff4a55aed6a9c0d8-civil-status-cantons.json"
+    },
+    {
+      "path": "data/demographics/civil-status-communes.json",
+      "sha256": "bfcbc02c342198bc544133cdf23ed0e8c17ed5a8fa16f2dd1ac21eb617451e8b",
+      "bytes": 5414497,
+      "object": null
+    },
+    {
+      "path": "data/demographics/civil-status-switzerland.json",
+      "sha256": "b0175d0f5f4fd2c7a5c000433586c71bd1ae03a14caee7f3a004f4c8e530b906",
+      "bytes": 3235,
+      "object": "objects/b0175d0f5f4fd2c7-civil-status-switzerland.json"
+    },
+    {
+      "path": "data/demographics/deaths-cantons.json",
+      "sha256": "133ec9b4e6e8bdedd84d25702c71db2609fcac90e5d19f4581e1c2cddba9cf08",
+      "bytes": 16000,
+      "object": "objects/133ec9b4e6e8bded-deaths-cantons.json"
+    },
+    {
+      "path": "data/demographics/deaths-communes.json",
+      "sha256": "5851831ff6b3fb8fb236ec1113d4f4d7bba912bc97edf006d8040183472e2dea",
+      "bytes": 1241640,
+      "object": "objects/5851831ff6b3fb8f-deaths-communes.json"
+    },
+    {
+      "path": "data/demographics/deaths-switzerland.json",
+      "sha256": "f785120562ad4555ace1616efcad01801de7a81d3f04ae9b13ad50e94b5d0baf",
+      "bytes": 1087,
+      "object": "objects/f785120562ad4555-deaths-switzerland.json"
+    },
+    {
+      "path": "data/demographics/first-names-cantons.json",
+      "sha256": "094a3995281e664d24c70188211e51129bdf2304537761b27071f964d1c397c5",
+      "bytes": 4884886,
+      "object": null
+    },
+    {
+      "path": "data/economy/establishments-jobs-cantons.json",
+      "sha256": "67f992b9ea6a1519a07c127c6be5c751bc5d455bf466dad1442cbc66abee15d5",
+      "bytes": 46101,
+      "object": "objects/67f992b9ea6a1519-establishments-jobs-cantons.json"
+    },
+    {
+      "path": "data/economy/establishments-jobs-communes.json",
+      "sha256": "b874b4ea8b59b8f06adf7e30a4469490ac61c0ed61b269840bd932eaa356104b",
+      "bytes": 3427656,
+      "object": null
+    },
+    {
+      "path": "data/economy/establishments-jobs-switzerland.json",
+      "sha256": "6410bb5e91c626a44dd869c589b4934c2a5a9feb2065ee2bf93542ca73eed79c",
+      "bytes": 2290,
+      "object": "objects/6410bb5e91c626a4-establishments-jobs-switzerland.json"
+    },
+    {
+      "path": "data/economy/unemployment-cantons.json",
+      "sha256": "d5223752f31d59c63cbeb989e990db091e2fdc59dd46f1107ee975ad09ed6c3e",
+      "bytes": 96993,
+      "object": "objects/d5223752f31d59c6-unemployment-cantons.json"
+    },
+    {
+      "path": "data/education/private-schools-seed.json",
+      "sha256": "def9b13a524b8dd4da8bbe4741816ea472b3590a1d29073b127bab290d0335f4",
+      "bytes": 16196,
+      "object": "objects/def9b13a524b8dd4-private-schools-seed.json"
+    },
+    {
+      "path": "data/education/university-fields.json",
+      "sha256": "09fab887fe752835139fc67a231512eada2d3e45ce60f12eef1bd70c62aab9f1",
+      "bytes": 19195,
+      "object": "objects/09fab887fe752835-university-fields.json"
+    },
+    {
+      "path": "data/education/university-foreign-students.json",
+      "sha256": "a2417ca82327937549ed3eab3b50bdf4820b59009cce8a5e6eb487864f19c051",
+      "bytes": 83850,
+      "object": "objects/a2417ca823279375-university-foreign-students.json"
+    },
+    {
+      "path": "data/expansion-log.json",
+      "sha256": "456b3134ac4dfbfdd3e70f3da26ca8bacd1b8f2aafe6e911a9af6b444757d2a0",
+      "bytes": 1763,
+      "object": "objects/456b3134ac4dfbfd-expansion-log.json"
+    },
+    {
+      "path": "data/field-lineage.json",
+      "sha256": "df58e32256e25da55531c536789f6b1f7ffaaf6b509eb42056a6dea6266d90b1",
+      "bytes": 30417,
+      "object": "objects/df58e32256e25da5-field-lineage.json"
+    },
+    {
+      "path": "data/finance/cantonal-finance-cantons.json",
+      "sha256": "7a307a85cfc79c58dafa754eba3adfa6627bcb7039fdcebe325cf1452389e153",
+      "bytes": 221906,
+      "object": "objects/7a307a85cfc79c58-cantonal-finance-cantons.json"
+    },
+    {
+      "path": "data/finance/cantonal-finance-switzerland.json",
+      "sha256": "95c22b2e8ff18f808e4500943ac75d9be5a64984816b8a6c74f2f97c52466583",
+      "bytes": 5784,
+      "object": "objects/95c22b2e8ff18f80-cantonal-finance-switzerland.json"
+    },
+    {
+      "path": "data/finance/public-finance-cantons.json",
+      "sha256": "f0af2822af9f63666b85b64de95e404b8768b810806702c76450b17b504322f1",
+      "bytes": 10069496,
+      "object": null
+    },
+    {
+      "path": "data/finance/public-finance-communes.json",
+      "sha256": "bc62f2ee0e97f0075ceba5ff536eb7f39358eb785979e726a03c6fc2bc4d1bd7",
+      "bytes": 12213955,
+      "object": null
+    },
+    {
+      "path": "data/finance/public-finance-switzerland.json",
+      "sha256": "54d6181d552cb34186cc0a3e790ae3bbb1e56e9a75aebdec36f60f2b71281f9b",
+      "bytes": 1437098,
+      "object": "objects/54d6181d552cb341-public-finance-switzerland.json"
+    },
+    {
+      "path": "data/health/hospital-infrastructure-cantons.json",
+      "sha256": "1442070a80cc2aa59a59192c4c1fed7e82e93c7ab7a89631d9ac18ed35f193bf",
+      "bytes": 71415,
+      "object": "objects/1442070a80cc2aa5-hospital-infrastructure-cantons.json"
+    },
+    {
+      "path": "data/health/hospital-infrastructure-switzerland.json",
+      "sha256": "fd5c0f13a6cb0e56b661a8ac629ec6cef30a33bcbb4326231d824712f9414ba2",
+      "bytes": 3356,
+      "object": "objects/fd5c0f13a6cb0e56-hospital-infrastructure-switzerland.json"
+    },
+    {
+      "path": "data/health/hospital-staff-cantons.json",
+      "sha256": "87c4de96f42c50d87b73657b33c895b553187fe24545e18861925adfdf743b9e",
+      "bytes": 39918,
+      "object": "objects/87c4de96f42c50d8-hospital-staff-cantons.json"
+    },
+    {
+      "path": "data/health/hospital-staff-switzerland.json",
+      "sha256": "e746dc89521c3f08963d12f0529944b8375ee0d5f6f08e42e1aa19f9a5bf3411",
+      "bytes": 1949,
+      "object": "objects/e746dc89521c3f08-hospital-staff-switzerland.json"
+    },
+    {
+      "path": "data/health/nursing-homes-cantons.json",
+      "sha256": "023d037de4de76f7813a4819ac251c7110ad851bd8f2c533cef9ab66ac729db6",
+      "bytes": 101512,
+      "object": "objects/023d037de4de76f7-nursing-homes-cantons.json"
+    },
+    {
+      "path": "data/health/nursing-homes-switzerland.json",
+      "sha256": "052653ce7007c8441e6cc2552238ffa489b8112a663d299a31708c5c3826256e",
+      "bytes": 4411,
+      "object": "objects/052653ce7007c844-nursing-homes-switzerland.json"
+    },
+    {
+      "path": "data/housing/vacancy-cantons.json",
+      "sha256": "360ece68e1ea13f5eb09db38172d44639a302a2db3785f262cfc1278018283d0",
+      "bytes": 3811,
+      "object": "objects/360ece68e1ea13f5-vacancy-cantons.json"
+    },
+    {
+      "path": "data/international/price-levels-eurostat.json",
+      "sha256": "cc52aec655558c30f310e1c48588ba9263f916d5ba17aebd7baa73a5c9016e1b",
+      "bytes": 29053,
+      "object": "objects/cc52aec655558c30-price-levels-eurostat.json"
+    },
+    {
+      "path": "data/migration/canton-od-matrix.json",
+      "sha256": "8958ed5c78133f3a324664708d7d518b18beaed5df162b38c373a3bcbd7f9e14",
+      "bytes": 297273,
+      "object": "objects/8958ed5c78133f3a-canton-od-matrix.json"
+    },
+    {
+      "path": "data/migration/immigration-by-age-sex-cantons.json",
+      "sha256": "63315ec76f001c64c399acaacb378359fd3631a4c21bc52f17e81f657093964c",
+      "bytes": 2759466,
+      "object": null
+    },
+    {
+      "path": "data/migration/immigration-by-nationality-cantons.json",
+      "sha256": "8571c5e02cbe6b2a01434143156988526d6620f467f2c0f43ee6f417c2a7d596",
+      "bytes": 3226357,
+      "object": null
+    },
+    {
+      "path": "data/migration/internal-migration-cantons.json",
+      "sha256": "edcaa796f97f138c109f5e6fce60e4c37350f11b2b20cce2af394f07560c8ecf",
+      "bytes": 3084706,
+      "object": null
+    },
+    {
+      "path": "data/migration/migration-by-origin-cantons.json",
+      "sha256": "2589333cedf05d2363366f66fb63a9cd1b06e8a209c3a4194bbbb8a35b13f42e",
+      "bytes": 519912,
+      "object": "objects/2589333cedf05d23-migration-by-origin-cantons.json"
+    },
+    {
+      "path": "data/migration/migration-by-origin-communes.json",
+      "sha256": "67eb61ebaf760f6f1a2c19094ebcfb38372c471d2684768826fa7ce2cdc3e8b2",
+      "bytes": 21382004,
+      "object": null
+    },
+    {
+      "path": "data/migration/migration-by-origin-switzerland.json",
+      "sha256": "d6e5fc15e9f5aa55f9affef92e7ef289fd373b6037f407ba3bcef8e161cc619c",
+      "bytes": 20094,
+      "object": "objects/d6e5fc15e9f5aa55-migration-by-origin-switzerland.json"
+    },
+    {
+      "path": "data/migration/migration-cantons.json",
+      "sha256": "e6795ebb46588460e58405e2667bcbf6676c57cfb8a9881f04cd0e185ab49cba",
+      "bytes": 480700,
+      "object": "objects/e6795ebb46588460-migration-cantons.json"
+    },
+    {
+      "path": "data/migration/migration-communes.json",
+      "sha256": "ac4443acdf4c4bee48a9b0753b255fcee800649fec0ac33a59adfc71178acc7c",
+      "bytes": 22721191,
+      "object": null
+    },
+    {
+      "path": "data/migration/migration-switzerland.json",
+      "sha256": "79580652719b26ae961eb4014dfe81614489ae5dc60e888711e1dcf7e782732d",
+      "bytes": 19278,
+      "object": "objects/79580652719b26ae-migration-switzerland.json"
+    },
+    {
+      "path": "data/migration/population-components-cantons.json",
+      "sha256": "01bf1785b71eecae6ac8e9810c46b805123ffe194dae7070cdee53364a7d0552",
+      "bytes": 2003184,
+      "object": "objects/01bf1785b71eecae-population-components-cantons.json"
+    },
+    {
+      "path": "data/migration/population-growth-cantons.json",
+      "sha256": "3804673217a42ab1e071540ea2eb23469949101c3c53ac12b65878d474105b08",
+      "bytes": 287865,
+      "object": "objects/3804673217a42ab1-population-growth-cantons.json"
+    },
+    {
+      "path": "data/mobility/cars-emissions-cantons.json",
+      "sha256": "bf70883e142136aa16125dc426e6e3e21fc73ebe43b5f2e1246503a271f76258",
+      "bytes": 153641,
+      "object": "objects/bf70883e142136aa-cars-emissions-cantons.json"
+    },
+    {
+      "path": "data/mobility/cars-technical-cantons.json",
+      "sha256": "84c713361beadd0b388345d744cee0b800862aa272d36a3a640b49d0dbeddf4d",
+      "bytes": 155163,
+      "object": "objects/84c713361beadd0b-cars-technical-cantons.json"
+    },
+    {
+      "path": "data/mobility/ev-share-cantons.json",
+      "sha256": "ab2fc5e0097e578f821f99e89b172a88ae5b52187767c4e341a16a332088f950",
+      "bytes": 59844,
+      "object": "objects/ab2fc5e0097e578f-ev-share-cantons.json"
+    },
+    {
+      "path": "data/mobility/goods-vehicles-cantons.json",
+      "sha256": "0cf1ba5f96e1722500c49d0177d1eb58d5514b2a63ce898de38cc89bb5b9b9d7",
+      "bytes": 207111,
+      "object": "objects/0cf1ba5f96e17225-goods-vehicles-cantons.json"
+    },
+    {
+      "path": "data/mobility/motorbikes-cantons.json",
+      "sha256": "dfbd14b21473125578bb3e7b76923108e9f12e2e803e4e3bc84362c835766db0",
+      "bytes": 126650,
+      "object": "objects/dfbd14b214731255-motorbikes-cantons.json"
+    },
+    {
+      "path": "data/mobility/vehicles-by-make-cantons.json",
+      "sha256": "89794fa1d761cfd582e0977d28b5e57c3e2916dea9b6757c404c4b5a9c46f6bb",
+      "bytes": 3264981,
+      "object": null
+    },
+    {
+      "path": "data/mobility/vehicles-holder-cantons.json",
+      "sha256": "7d49e0ca7700ddbcf921239f1399e148da7c6fb2f0723c2ab6a7b7020fc976bd",
+      "bytes": 525708,
+      "object": "objects/7d49e0ca7700ddbc-vehicles-holder-cantons.json"
+    },
+    {
+      "path": "data/mobility/vehicles-new-cantons.json",
+      "sha256": "a571b003bc793de12d161e1d6b8d34341824c83bdd3c717b6689f19ed382eef5",
+      "bytes": 509237,
+      "object": "objects/a571b003bc793de1-vehicles-new-cantons.json"
+    },
+    {
+      "path": "data/mobility/vehicles-new-communes.json",
+      "sha256": "730f2596eaab124a58d577ffd8be0b26b4532b568c1a4eff10402c2ab90b3ba3",
+      "bytes": 17194800,
+      "object": null
+    },
+    {
+      "path": "data/mobility/vehicles-stock-cantons.json",
+      "sha256": "a93485f9c18e97a5773ffd1b085058db20fdbe15c53049c70359f47e150df705",
+      "bytes": 610399,
+      "object": "objects/a93485f9c18e97a5-vehicles-stock-cantons.json"
+    },
+    {
+      "path": "data/mobility/vehicles-stock-communes.json",
+      "sha256": "1298e534a5be4b277dfd945c56f531361aea88a3143c7e7429f76d832fa8f078",
+      "bytes": 22499261,
+      "object": null
+    },
+    {
+      "path": "data/naturalisation/naturalisation-rate-cantons.json",
+      "sha256": "1c681c790f08165bab4a38586bfd2db40211ad46c7d199ddb7d81034ec9d019c",
+      "bytes": 20998,
+      "object": "objects/1c681c790f08165b-naturalisation-rate-cantons.json"
+    },
+    {
+      "path": "data/naturalisation/naturalisations-by-country-cantons.json",
+      "sha256": "c157d46f99d187978c604e4314ff78c26277d16150215e9e5c37645adaca008e",
+      "bytes": 383130,
+      "object": "objects/c157d46f99d18797-naturalisations-by-country-cantons.json"
+    },
+    {
+      "path": "data/naturalisation/naturalisations-by-origin-cantons.json",
+      "sha256": "544d3d724c8bb116c967a22d057b67f0580787ac37b77005a7e9e74c7ddea7c6",
+      "bytes": 71628,
+      "object": "objects/544d3d724c8bb116-naturalisations-by-origin-cantons.json"
+    },
+    {
+      "path": "data/naturalisation/naturalisations-by-origin-communes.json",
+      "sha256": "3ee785650bd744030945472677ae7b1079ce2aa06b8921064bcd87633c35e822",
+      "bytes": 5527956,
+      "object": null
+    },
+    {
+      "path": "data/naturalisation/naturalisations-by-origin-switzerland.json",
+      "sha256": "fdccfd04f0e53a212db3d067b0757b8be9cd4e9942453302684979f1509438b5",
+      "bytes": 3681,
+      "object": "objects/fdccfd04f0e53a21-naturalisations-by-origin-switzerland.json"
+    },
+    {
+      "path": "data/naturalisation/naturalisations-by-type-cantons.json",
+      "sha256": "af392100df656b1a4e2316c7eab0a4abb2fb581bf78b9b97c5747cce994f7884",
+      "bytes": 42403,
+      "object": "objects/af392100df656b1a-naturalisations-by-type-cantons.json"
+    },
+    {
+      "path": "data/official-sources.json",
+      "sha256": "5aded45d2668c4942dc2c80602bd2cc264fd01d8d3394d877cb72db16ade519b",
+      "bytes": 60030,
+      "object": "objects/5aded45d2668c494-official-sources.json"
+    },
+    {
+      "path": "data/pension/pillar3a-official.json",
+      "sha256": "698a07a87965db18d4436b56bfaf7bcabbb56ae288b309ca45c2be5dc97a9fdb",
+      "bytes": 4451,
+      "object": "objects/698a07a87965db18-pillar3a-official.json"
+    },
+    {
+      "path": "data/permits/permit-population-cantons.json",
+      "sha256": "757173c06f65d6af676790bc032ab2e333f8757a6fffd2945cda12b67879cffc",
+      "bytes": 159674,
+      "object": "objects/757173c06f65d6af-permit-population-cantons.json"
+    },
+    {
+      "path": "data/permits/permit-population-switzerland.json",
+      "sha256": "087c0605c7c98b094a736cb71e70e65ddbfd8b799893d8762e4cca8e7f1bdafc",
+      "bytes": 6668,
+      "object": "objects/087c0605c7c98b09-permit-population-switzerland.json"
+    },
+    {
+      "path": "data/raw/births/2026-09-05-bilanz-lebendgeburt.json",
+      "sha256": "3d381b3b8f56b4f646296dca419b933dc0379ad11bd79a4d003cab000be80a9d",
+      "bytes": 10211,
+      "object": "objects/3d381b3b8f56b4f6-2026-09-05-bilanz-lebendgeburt.json"
+    },
+    {
+      "path": "data/raw/births/2026-09-05-lebendgeburten-seit-1803.json",
+      "sha256": "7d2f0e594ba26196ad7e14c994ea51dcee7602daa6cdfdd45839ea26e1e698f3",
+      "bytes": 20076,
+      "object": "objects/7d2f0e594ba26196-2026-09-05-lebendgeburten-seit-1803.json"
+    },
+    {
+      "path": "data/raw/births/2026-09-05-naissances1-1969-1978.json",
+      "sha256": "69906d60bc8e4269c7943f77328167c42253015cf7d331282434b2851a9b7298",
+      "bytes": 443945,
+      "object": "objects/69906d60bc8e4269-2026-09-05-naissances1-1969-1978.json"
+    },
+    {
+      "path": "data/raw/births/2026-09-05-naissances1-1979-1988.json",
+      "sha256": "a45d91d43adeb7d2b0c37ce80d65726039f64caccefb428e4f5cad4c2fe585ba",
+      "bytes": 442811,
+      "object": "objects/a45d91d43adeb7d2-2026-09-05-naissances1-1979-1988.json"
+    },
+    {
+      "path": "data/raw/births/2026-09-05-naissances1-1989-1998.json",
+      "sha256": "20b17a65646b75e7e992b1767418084130d6884909acc7bb0dd0644278a4fbd7",
+      "bytes": 443546,
+      "object": "objects/20b17a65646b75e7-2026-09-05-naissances1-1989-1998.json"
+    },
+    {
+      "path": "data/raw/births/2026-09-05-naissances1-1999-2008.json",
+      "sha256": "67072019404995823d9dc78c9554b49f55008fe3f372f553d2f01df1905dc5de",
+      "bytes": 443409,
+      "object": "objects/6707201940499582-2026-09-05-naissances1-1999-2008.json"
+    },
+    {
+      "path": "data/raw/births/2026-09-05-naissances1-2009-2018.json",
+      "sha256": "e682904eb616cd2f2ed68cabcce7df8bfd694c6e5c334d02f6c8d2e66e6e2450",
+      "bytes": 443990,
+      "object": "objects/e682904eb616cd2f-2026-09-05-naissances1-2009-2018.json"
+    },
+    {
+      "path": "data/raw/births/2026-09-05-naissances1-2019-2025.json",
+      "sha256": "633936b07611e905f16906f46fe7dc2afcfacd3ba86b0f85de6bb58324e531a0",
+      "bytes": 313593,
+      "object": "objects/633936b07611e905-2026-09-05-naissances1-2019-2025.json"
+    },
+    {
+      "path": "data/raw/births/2026-09-05-naissances2-ch-birth-order-1997-2025.json",
+      "sha256": "2ce52b7783c9bece29e41881ea79df0d89f8d586e3ecbc1e381f245acc14365d",
+      "bytes": 21052,
+      "object": "objects/2ce52b7783c9bece-2026-09-05-naissances2-ch-birth-order-1997-2025.json"
+    },
+    {
+      "path": "data/raw/births/2026-09-05-su-d-01.04.01.01.08.xlsx",
+      "sha256": "03b6606698d656166c0e15881245097ddd6634a5ce1ac26ef78b7bd2a8821fb7",
+      "bytes": 41474,
+      "object": "objects/03b6606698d65616-2026-09-05-su-d-01.04.01.01.08.xlsx"
+    },
+    {
+      "path": "data/raw/births/2026-09-05-su-d-01.04.01.01.17.xlsx",
+      "sha256": "028fb81882edd9242ba003868c0cbb4a372c3b16707d23129d036e0ee2e58a3d",
+      "bytes": 164332,
+      "object": "objects/028fb81882edd924-2026-09-05-su-d-01.04.01.01.17.xlsx"
+    },
+    {
+      "path": "data/raw/crime-detail/2026-09-05-accused-2009-2014.json",
+      "sha256": "c1e50d01425576ef2b64df5e6aa47ee6cf3b856a7220378303f5e084b9ec6f8c",
+      "bytes": 71187,
+      "object": "objects/c1e50d01425576ef-2026-09-05-accused-2009-2014.json"
+    },
+    {
+      "path": "data/raw/crime-detail/2026-09-05-accused-2015-2020.json",
+      "sha256": "dfad547bd62d69f390f0ab7946e8406c2aaf7cd89531e24b0693ed4fdcaabb46",
+      "bytes": 71518,
+      "object": "objects/dfad547bd62d69f3-2026-09-05-accused-2015-2020.json"
+    },
+    {
+      "path": "data/raw/crime-detail/2026-09-05-accused-2021-2025.json",
+      "sha256": "8cf4a5984e19473e9df0314a666b8ac526cccede32c236073a3ce7c78330ad13",
+      "bytes": 57916,
+      "object": "objects/8cf4a5984e19473e-2026-09-05-accused-2021-2025.json"
+    },
+    {
+      "path": "data/raw/crime-detail/2026-09-05-accused-ch-sex-age.json",
+      "sha256": "16ab1403037ea422267bbed03211470529cf3b1e038fe01cc4986cab884142f3",
+      "bytes": 67125,
+      "object": "objects/16ab1403037ea422-2026-09-05-accused-ch-sex-age.json"
+    },
+    {
+      "path": "data/raw/crime-detail/2026-09-05-offences-2009-2014.json",
+      "sha256": "438cbd8ed9cc6da44a96d2debbf74307655846f6428c6f5f963bebb836c00dc6",
+      "bytes": 63573,
+      "object": "objects/438cbd8ed9cc6da4-2026-09-05-offences-2009-2014.json"
+    },
+    {
+      "path": "data/raw/crime-detail/2026-09-05-offences-2015-2020.json",
+      "sha256": "b5224f4da3d98300ad0078ecb731c2d55f2f96566d0a51d903055ff41c8c00fb",
+      "bytes": 63111,
+      "object": "objects/b5224f4da3d98300-2026-09-05-offences-2015-2020.json"
+    },
+    {
+      "path": "data/raw/crime-detail/2026-09-05-offences-2021-2025.json",
+      "sha256": "2c24b95b2052f11127648a461951f90c93e77a8234b6f5271abe3ada26a9f8b5",
+      "bytes": 54008,
+      "object": "objects/2c24b95b2052f111-2026-09-05-offences-2021-2025.json"
+    },
+    {
+      "path": "data/raw/first-names/2026-09-05-prenoms-female-2000.json.gz",
+      "sha256": "7d13211ea6d27f1c28556b33b7d3df2906e5a1c511009ad90e61595c99c82a4a",
+      "bytes": 855707,
+      "object": "objects/7d13211ea6d27f1c-2026-09-05-prenoms-female-2000.json.gz"
+    },
+    {
+      "path": "data/raw/first-names/2026-09-05-prenoms-female-2001.json.gz",
+      "sha256": "48219e93b9f8da2da7fce85f0385e6523a31362deca4cee4d23a2fabe2eddd70",
+      "bytes": 855677,
+      "object": "objects/48219e93b9f8da2d-2026-09-05-prenoms-female-2001.json.gz"
+    },
+    {
+      "path": "data/raw/first-names/2026-09-05-prenoms-female-2002.json.gz",
+      "sha256": "258c141a0b75e0f2173895212840f924d9417a35cd13fb11a2c446e540d78c55",
+      "bytes": 857135,
+      "object": "objects/258c141a0b75e0f2-2026-09-05-prenoms-female-2002.json.gz"
+    },
+    {
+      "path": "data/raw/first-names/2026-09-05-prenoms-female-2003.json.gz",
+      "sha256": "42f5a4c568f0e54ce0ee15ae2ba70c54221d3e77419b7b739e1564551d7b431b",
+      "bytes": 858452,
+      "object": "objects/42f5a4c568f0e54c-2026-09-05-prenoms-female-2003.json.gz"
+    },
+    {
+      "path": "data/raw/first-names/2026-09-05-prenoms-female-2004.json.gz",
+      "sha256": "ba0544b3d098b830371c7c8f3c9d962bf6a50117f3d366bbb4ebbc524ae75a15",
+      "bytes": 860504,
+      "object": "objects/ba0544b3d098b830-2026-09-05-prenoms-female-2004.json.gz"
+    },
+    {
+      "path": "data/raw/first-names/2026-09-05-prenoms-female-2005.json.gz",
+      "sha256": "7073c5025348441b55c3762bd232706a52a7f83668fbc1a6acb55cec9d11104f",
+      "bytes": 861665,
+      "object": "objects/7073c5025348441b-2026-09-05-prenoms-female-2005.json.gz"
+    },
+    {
+      "path": "data/raw/first-names/2026-09-05-prenoms-female-2006.json.gz",
+      "sha256": "89cb023da6abf034e59b1d54cafa0756bebeeebffae40489d62f6c01ace1451a",
+      "bytes": 863091,
+      "object": "objects/89cb023da6abf034-2026-09-05-prenoms-female-2006.json.gz"
+    },
+    {
+      "path": "data/raw/first-names/2026-09-05-prenoms-female-2007.json.gz",
+      "sha256": "8d4b1bb91866e66b956a11ca8b3eb4697c96c4825d3d130a3ea16e661897a9ed",
+      "bytes": 865272,
+      "object": "objects/8d4b1bb91866e66b-2026-09-05-prenoms-female-2007.json.gz"
+    },
+    {
+      "path": "data/raw/first-names/2026-09-05-prenoms-female-2008.json.gz",
+      "sha256": "b80161a6e778272380b3fc4099450b15ea3025eba68c902421d0e0ad7d160ada",
+      "bytes": 866372,
+      "object": "objects/b80161a6e7782723-2026-09-05-prenoms-female-2008.json.gz"
+    },
+    {
+      "path": "data/raw/first-names/2026-09-05-prenoms-female-2009.json.gz",
+      "sha256": "a0df1448490f19414222849ce15301e5fd1ae269cabe22e2d9e6ba2c46aece3f",
+      "bytes": 868408,
+      "object": "objects/a0df1448490f1941-2026-09-05-prenoms-female-2009.json.gz"
+    },
+    {
+      "path": "data/raw/first-names/2026-09-05-prenoms-female-2010.json.gz",
+      "sha256": "7b4c6c151fe6f96a584f1d89e43ae6368763cc21e84e2520aa237c568b5c426b",
+      "bytes": 870366,
+      "object": "objects/7b4c6c151fe6f96a-2026-09-05-prenoms-female-2010.json.gz"
+    },
+    {
+      "path": "data/raw/first-names/2026-09-05-prenoms-female-2011.json.gz",
+      "sha256": "819a94ab40096c233eda50afe3507f3590819eded801df124a57588858813f5c",
+      "bytes": 871206,
+      "object": "objects/819a94ab40096c23-2026-09-05-prenoms-female-2011.json.gz"
+    },
+    {
+      "path": "data/raw/first-names/2026-09-05-prenoms-female-2012.json.gz",
+      "sha256": "f0d52d0a24d51e68e440c8ff28ab91419b2d7f07975fc27fdfa3d218a34c9c27",
+      "bytes": 872678,
+      "object": "objects/f0d52d0a24d51e68-2026-09-05-prenoms-female-2012.json.gz"
+    },
+    {
+      "path": "data/raw/first-names/2026-09-05-prenoms-female-2013.json.gz",
+      "sha256": "492e9d4b7ec5dc556a357b50ab0fbc959250f1743f87a94db2a2678a3dd5968a",
+      "bytes": 874164,
+      "object": "objects/492e9d4b7ec5dc55-2026-09-05-prenoms-female-2013.json.gz"
+    },
+    {
+      "path": "data/raw/first-names/2026-09-05-prenoms-female-2014.json.gz",
+      "sha256": "7cc5a5e8436db106a5d0742b5d012d4a236d686320967879efaf20de99f4dcce",
+      "bytes": 875414,
+      "object": "objects/7cc5a5e8436db106-2026-09-05-prenoms-female-2014.json.gz"
+    },
+    {
+      "path": "data/raw/first-names/2026-09-05-prenoms-female-2015.json.gz",
+      "sha256": "d905962b92930217c99084263308e968f07e35965ea026a4418bb412cb2931f4",
+      "bytes": 877086,
+      "object": "objects/d905962b92930217-2026-09-05-prenoms-female-2015.json.gz"
+    },
+    {
+      "path": "data/raw/first-names/2026-09-05-prenoms-female-2016.json.gz",
+      "sha256": "42ea01818f6a1b18a310980953f0c499d6cbe1b96bf1c74f97bb24cf2919ba9a",
+      "bytes": 879533,
+      "object": "objects/42ea01818f6a1b18-2026-09-05-prenoms-female-2016.json.gz"
+    },
+    {
+      "path": "data/raw/first-names/2026-09-05-prenoms-female-2017.json.gz",
+      "sha256": "2c9234a4acc8d4cfed7afc43176494f70561102e7483a320e86ea706975e7eb8",
+      "bytes": 879213,
+      "object": "objects/2c9234a4acc8d4cf-2026-09-05-prenoms-female-2017.json.gz"
+    },
+    {
+      "path": "data/raw/first-names/2026-09-05-prenoms-female-2018.json.gz",
+      "sha256": "c2228e754ac491aaf9a8571f6a49482f09a40ecbd04378afd4fa7a0a91bcb389",
+      "bytes": 880798,
+      "object": "objects/c2228e754ac491aa-2026-09-05-prenoms-female-2018.json.gz"
+    },
+    {
+      "path": "data/raw/first-names/2026-09-05-prenoms-female-2019.json.gz",
+      "sha256": "ef1689de74d2ee46423ce379073507756bcfaeb3c44e981ec2624aa43f1adf8d",
+      "bytes": 880320,
+      "object": "objects/ef1689de74d2ee46-2026-09-05-prenoms-female-2019.json.gz"
+    },
+    {
+      "path": "data/raw/first-names/2026-09-05-prenoms-female-2020.json.gz",
+      "sha256": "862c30549836599ff6cff0b5954821fc2254ececdfba13c00080da926ebe05a6",
+      "bytes": 880570,
+      "object": "objects/862c30549836599f-2026-09-05-prenoms-female-2020.json.gz"
+    },
+    {
+      "path": "data/raw/first-names/2026-09-05-prenoms-female-2021.json.gz",
+      "sha256": "239f22079497409421d8df6a7145bbb7680da2304339616eaee5a83d6395cd39",
+      "bytes": 882460,
+      "object": "objects/239f220794974094-2026-09-05-prenoms-female-2021.json.gz"
+    },
+    {
+      "path": "data/raw/first-names/2026-09-05-prenoms-female-2022.json.gz",
+      "sha256": "e6635bf0b30682e2b7adccf70952297aace91efc05e63135ced39ea8e9cf38a7",
+      "bytes": 879349,
+      "object": "objects/e6635bf0b30682e2-2026-09-05-prenoms-female-2022.json.gz"
+    },
+    {
+      "path": "data/raw/first-names/2026-09-05-prenoms-female-2023.json.gz",
+      "sha256": "71a38b95e1ba2e039d90c03d1d87019960e61d38ad36793016e1a205ab8c0499",
+      "bytes": 879896,
+      "object": "objects/71a38b95e1ba2e03-2026-09-05-prenoms-female-2023.json.gz"
+    },
+    {
+      "path": "data/raw/first-names/2026-09-05-prenoms-female-2024.json.gz",
+      "sha256": "f764aa27d88bd4dc02144419f6da4a2025f1a809a0e838e62b209b7da15d66ea",
+      "bytes": 879260,
+      "object": "objects/f764aa27d88bd4dc-2026-09-05-prenoms-female-2024.json.gz"
+    },
+    {
+      "path": "data/raw/first-names/2026-09-05-prenoms-female-2025.json.gz",
+      "sha256": "9bc6eb5a3bf0647e89a194b5b804406703c7e50fe6aa27e7869f0d16e310bfbe",
+      "bytes": 888982,
+      "object": "objects/9bc6eb5a3bf0647e-2026-09-05-prenoms-female-2025.json.gz"
+    },
+    {
+      "path": "data/raw/first-names/2026-09-05-prenoms-male-2000.json.gz",
+      "sha256": "cca1cef3d96d93a03e8f872f8ac9b223a6c7e43098c8db0907eed2fd47f8c0e4",
+      "bytes": 891674,
+      "object": "objects/cca1cef3d96d93a0-2026-09-05-prenoms-male-2000.json.gz"
+    },
+    {
+      "path": "data/raw/first-names/2026-09-05-prenoms-male-2001.json.gz",
+      "sha256": "f140b222ec2e6f2df114d165b34a43329ea15c1215c8db91d858ebf6865f8b85",
+      "bytes": 890101,
+      "object": "objects/f140b222ec2e6f2d-2026-09-05-prenoms-male-2001.json.gz"
+    },
+    {
+      "path": "data/raw/first-names/2026-09-05-prenoms-male-2002.json.gz",
+      "sha256": "4d8cb0fcf39fc86613b6289285501b68bd400dcc26135bdcde836b29baf71120",
+      "bytes": 892683,
+      "object": "objects/4d8cb0fcf39fc866-2026-09-05-prenoms-male-2002.json.gz"
+    },
+    {
+      "path": "data/raw/first-names/2026-09-05-prenoms-male-2003.json.gz",
+      "sha256": "3b28a32e9365cfac6968c796d015faa12f1c1c71a760ea431a442987a1f80915",
+      "bytes": 892561,
+      "object": "objects/3b28a32e9365cfac-2026-09-05-prenoms-male-2003.json.gz"
+    },
+    {
+      "path": "data/raw/first-names/2026-09-05-prenoms-male-2004.json.gz",
+      "sha256": "af1fb70a910e3c333889d18abdfa0769bd57360a61f32f2837c2fe7c965e24a2",
+      "bytes": 895437,
+      "object": "objects/af1fb70a910e3c33-2026-09-05-prenoms-male-2004.json.gz"
+    },
+    {
+      "path": "data/raw/first-names/2026-09-05-prenoms-male-2005.json.gz",
+      "sha256": "23deaec3593e06746ff5a01598bf8d7e95aaf1b1101853ba7c418a03fd9b5e07",
+      "bytes": 896598,
+      "object": "objects/23deaec3593e0674-2026-09-05-prenoms-male-2005.json.gz"
+    },
+    {
+      "path": "data/raw/first-names/2026-09-05-prenoms-male-2006.json.gz",
+      "sha256": "00c4098f9eec4f2d1d29a21b68026a8abb99bf4dd374353755e7e6c3fe002e51",
+      "bytes": 897768,
+      "object": "objects/00c4098f9eec4f2d-2026-09-05-prenoms-male-2006.json.gz"
+    },
+    {
+      "path": "data/raw/first-names/2026-09-05-prenoms-male-2007.json.gz",
+      "sha256": "0311fb84caeeb89e49fdbef6f91142260c1d1a70db70839fd5dc9bd762f617c7",
+      "bytes": 899448,
+      "object": "objects/0311fb84caeeb89e-2026-09-05-prenoms-male-2007.json.gz"
+    },
+    {
+      "path": "data/raw/first-names/2026-09-05-prenoms-male-2008.json.gz",
+      "sha256": "de44a7e572da9b65a91631b74ddff36b0f4ec13069279a136fd188545126cac0",
+      "bytes": 901539,
+      "object": "objects/de44a7e572da9b65-2026-09-05-prenoms-male-2008.json.gz"
+    },
+    {
+      "path": "data/raw/first-names/2026-09-05-prenoms-male-2009.json.gz",
+      "sha256": "1142ba7bcd1f7d592e9730d0e61bbc41b4759ef55cdef536c0ccfe667493f788",
+      "bytes": 903748,
+      "object": "objects/1142ba7bcd1f7d59-2026-09-05-prenoms-male-2009.json.gz"
+    },
+    {
+      "path": "data/raw/first-names/2026-09-05-prenoms-male-2010.json.gz",
+      "sha256": "2d82b8b5163769d5fe76ac0169baf1231cfefb879dd74a42617b84ac028b6478",
+      "bytes": 905047,
+      "object": "objects/2d82b8b5163769d5-2026-09-05-prenoms-male-2010.json.gz"
+    },
+    {
+      "path": "data/raw/first-names/2026-09-05-prenoms-male-2011.json.gz",
+      "sha256": "6d6540c486e1ee1b9e133540953179aeeec1f029f9846153ae4ba9c9997f15a3",
+      "bytes": 906220,
+      "object": "objects/6d6540c486e1ee1b-2026-09-05-prenoms-male-2011.json.gz"
+    },
+    {
+      "path": "data/raw/first-names/2026-09-05-prenoms-male-2012.json.gz",
+      "sha256": "e80cc45cf80f4ffe16d01bf7b7558c96a5f8b191830a6be9b3f5165914fee4e7",
+      "bytes": 908181,
+      "object": "objects/e80cc45cf80f4ffe-2026-09-05-prenoms-male-2012.json.gz"
+    },
+    {
+      "path": "data/raw/first-names/2026-09-05-prenoms-male-2013.json.gz",
+      "sha256": "ff85ee3c56bfbcb3652bbbab0c5509e9fbc16aa0ed1d44bd1c3213b8eb310f0b",
+      "bytes": 909236,
+      "object": "objects/ff85ee3c56bfbcb3-2026-09-05-prenoms-male-2013.json.gz"
+    },
+    {
+      "path": "data/raw/first-names/2026-09-05-prenoms-male-2014.json.gz",
+      "sha256": "97671948c99dd4ff8bee2c0dfa70a8d6fb4055b3f1ff03f6ca342327ec5ecfe5",
+      "bytes": 911146,
+      "object": "objects/97671948c99dd4ff-2026-09-05-prenoms-male-2014.json.gz"
+    },
+    {
+      "path": "data/raw/first-names/2026-09-05-prenoms-male-2015.json.gz",
+      "sha256": "67e018632e13fa792ccdad51799e9fccbc024b235a52e038aafd952404b621b4",
+      "bytes": 913583,
+      "object": "objects/67e018632e13fa79-2026-09-05-prenoms-male-2015.json.gz"
+    },
+    {
+      "path": "data/raw/first-names/2026-09-05-prenoms-male-2016.json.gz",
+      "sha256": "a0557f900e1b526231d50acbe457b8024b7109644799bc8eae42d7fd18aee41b",
+      "bytes": 913937,
+      "object": "objects/a0557f900e1b5262-2026-09-05-prenoms-male-2016.json.gz"
+    },
+    {
+      "path": "data/raw/first-names/2026-09-05-prenoms-male-2017.json.gz",
+      "sha256": "fe40d4b0fcaaa7a7348d1e40f5da83608d41678fa9902dd491b11932227ee7a7",
+      "bytes": 915057,
+      "object": "objects/fe40d4b0fcaaa7a7-2026-09-05-prenoms-male-2017.json.gz"
+    },
+    {
+      "path": "data/raw/first-names/2026-09-05-prenoms-male-2018.json.gz",
+      "sha256": "a13b04f969671845bd55a3fff1a1ce63ff6d590f038657b8d20324e0557bd634",
+      "bytes": 916372,
+      "object": "objects/a13b04f969671845-2026-09-05-prenoms-male-2018.json.gz"
+    },
+    {
+      "path": "data/raw/first-names/2026-09-05-prenoms-male-2019.json.gz",
+      "sha256": "9180f66e000d2014f29fbe80c0b9c575d1a8bd165e9c797b1e68a8f480e7e33a",
+      "bytes": 916408,
+      "object": "objects/9180f66e000d2014-2026-09-05-prenoms-male-2019.json.gz"
+    },
+    {
+      "path": "data/raw/first-names/2026-09-05-prenoms-male-2020.json.gz",
+      "sha256": "504783abb2932c9707112fc6eb655d2aa7c797538a9a90aa44ad2c5189f91d69",
+      "bytes": 916968,
+      "object": "objects/504783abb2932c97-2026-09-05-prenoms-male-2020.json.gz"
+    },
+    {
+      "path": "data/raw/first-names/2026-09-05-prenoms-male-2021.json.gz",
+      "sha256": "15557f1aabc949b1c4d3d3fb2c8ab481e08bc12b79c5f6d0e0cfb6df8e1e122e",
+      "bytes": 919826,
+      "object": "objects/15557f1aabc949b1-2026-09-05-prenoms-male-2021.json.gz"
+    },
+    {
+      "path": "data/raw/first-names/2026-09-05-prenoms-male-2022.json.gz",
+      "sha256": "0bbb51b063c40510e306b74b73de1fba89e51ee68e7c31f404e60b551dc44d2d",
+      "bytes": 916927,
+      "object": "objects/0bbb51b063c40510-2026-09-05-prenoms-male-2022.json.gz"
+    },
+    {
+      "path": "data/raw/first-names/2026-09-05-prenoms-male-2023.json.gz",
+      "sha256": "562e8638c60c4faafbb867489576bdaf1f2e432f83e14f5496fa6e6f466b24eb",
+      "bytes": 915437,
+      "object": "objects/562e8638c60c4faa-2026-09-05-prenoms-male-2023.json.gz"
+    },
+    {
+      "path": "data/raw/first-names/2026-09-05-prenoms-male-2024.json.gz",
+      "sha256": "3022abaa97cf33dd71d0696fa95ad09d1d173a541df21e7e964a60a5102b9e18",
+      "bytes": 915076,
+      "object": "objects/3022abaa97cf33dd-2026-09-05-prenoms-male-2024.json.gz"
+    },
+    {
+      "path": "data/raw/first-names/2026-09-05-prenoms-male-2025.json.gz",
+      "sha256": "45ec7ae273414b3c2e295157d76a98b8f6d0735f4464be4cf19b3c1f7af305eb",
+      "bytes": 925023,
+      "object": "objects/45ec7ae273414b3c-2026-09-05-prenoms-male-2025.json.gz"
+    },
+    {
+      "path": "data/raw/migration-detail/2026-09-05-components-cantons-1971-2025.json",
+      "sha256": "dce1f621e198eec49f1303f20d26c3013ca43810a5002e085aff8d223b2f3863",
+      "bytes": 298280,
+      "object": "objects/dce1f621e198eec4-2026-09-05-components-cantons-1971-2025.json"
+    },
+    {
+      "path": "data/raw/migration-detail/2026-09-05-emigration-age-sex-2011-2025.json",
+      "sha256": "42197a295b7d626542329a1b62933ef6b5c76c0a2659fbe1bbf2adac92ec5999",
+      "bytes": 149831,
+      "object": "objects/42197a295b7d6265-2026-09-05-emigration-age-sex-2011-2025.json"
+    },
+    {
+      "path": "data/raw/migration-detail/2026-09-05-emigration-by-destination-country-2011-2025.json",
+      "sha256": "75ca15e3c10d8a3c24b70c0b81a74d50b28b0d3003ecc88b627c5de469687bb9",
+      "bytes": 195471,
+      "object": "objects/75ca15e3c10d8a3c-2026-09-05-emigration-by-destination-country-2011-2025.json"
+    },
+    {
+      "path": "data/raw/migration-detail/2026-09-05-emigration-by-nationality-2011-2025.json",
+      "sha256": "d5103c92260bee0a1e092314456d324fb70fdf8737613d390d56acdb8b6dd7f6",
+      "bytes": 193547,
+      "object": "objects/d5103c92260bee0a-2026-09-05-emigration-by-nationality-2011-2025.json"
+    },
+    {
+      "path": "data/raw/migration-detail/2026-09-05-immigration-age-sex-2011-2025.json",
+      "sha256": "c285a60367dde8b3e9ff3ae945ab423eb3ca1989cddbd05ec92240fbf5f67aed",
+      "bytes": 151257,
+      "object": "objects/c285a60367dde8b3-2026-09-05-immigration-age-sex-2011-2025.json"
+    },
+    {
+      "path": "data/raw/migration-detail/2026-09-05-immigration-by-nationality-2011-2025.json",
+      "sha256": "1c2af917888689aee5e42542cf80d54cb454dab182e8fd568bcb0bf9de0ed1d8",
+      "bytes": 201349,
+      "object": "objects/1c2af917888689ae-2026-09-05-immigration-by-nationality-2011-2025.json"
+    },
+    {
+      "path": "data/raw/migration-detail/2026-09-05-immigration-by-origin-country-2011-2025.json",
+      "sha256": "4461ad3d0eef3debe75b0f07aa75c7cc90d7c1f89f2e1a9bb398f0dc24250423",
+      "bytes": 200933,
+      "object": "objects/4461ad3d0eef3deb-2026-09-05-immigration-by-origin-country-2011-2025.json"
+    },
+    {
+      "path": "data/raw/migration-detail/2026-09-05-internal-in-2011.json",
+      "sha256": "2be687046bcf90ff9e11a73e233dd7841db072ce25797bc1d1faebdf84c8b81f",
+      "bytes": 67411,
+      "object": "objects/2be687046bcf90ff-2026-09-05-internal-in-2011.json"
+    },
+    {
+      "path": "data/raw/migration-detail/2026-09-05-internal-in-2012.json",
+      "sha256": "c7659ef19da0e6a9f582d6b342bdcd65830e3a06a4740febd8ca2202b33bff6e",
+      "bytes": 67324,
+      "object": "objects/c7659ef19da0e6a9-2026-09-05-internal-in-2012.json"
+    },
+    {
+      "path": "data/raw/migration-detail/2026-09-05-internal-in-2013.json",
+      "sha256": "6ef6d3694236695fc268770c7337c1843d0b8999a885631ccd978cc1210cd2ee",
+      "bytes": 67506,
+      "object": "objects/6ef6d3694236695f-2026-09-05-internal-in-2013.json"
+    },
+    {
+      "path": "data/raw/migration-detail/2026-09-05-internal-in-2014.json",
+      "sha256": "ee455fe49c84c9968380cf54a1790c3dfd1b9ccbde3e670664f9c24bbe423f97",
+      "bytes": 67744,
+      "object": "objects/ee455fe49c84c996-2026-09-05-internal-in-2014.json"
+    },
+    {
+      "path": "data/raw/migration-detail/2026-09-05-internal-in-2015.json",
+      "sha256": "c7e7c0eaf5a5f800f5c27c7cb37b82d6971f8c6a090601864f5ea4a995af962e",
+      "bytes": 67849,
+      "object": "objects/c7e7c0eaf5a5f800-2026-09-05-internal-in-2015.json"
+    },
+    {
+      "path": "data/raw/migration-detail/2026-09-05-internal-in-2016.json",
+      "sha256": "09224cbcc04078b5cc0a42a0faf75be2ae022b8cd93c25e4e2369772aee18ac1",
+      "bytes": 68034,
+      "object": "objects/09224cbcc04078b5-2026-09-05-internal-in-2016.json"
+    },
+    {
+      "path": "data/raw/migration-detail/2026-09-05-internal-in-2017.json",
+      "sha256": "3c5737b8200b5f54acd4d2872fc599f993d2b62d7fcd93810f1c4226cf56a852",
+      "bytes": 67961,
+      "object": "objects/3c5737b8200b5f54-2026-09-05-internal-in-2017.json"
+    },
+    {
+      "path": "data/raw/migration-detail/2026-09-05-internal-in-2018.json",
+      "sha256": "3b82e217af3afbedfd0941a6f196d02aa3c922b6a93a6deaa0d63b0dc51d2c13",
+      "bytes": 68110,
+      "object": "objects/3b82e217af3afbed-2026-09-05-internal-in-2018.json"
+    },
+    {
+      "path": "data/raw/migration-detail/2026-09-05-internal-in-2019.json",
+      "sha256": "8232da6acc3c2b59d894c97e72a591d8501f2da57537fe1d84774337cfe41991",
+      "bytes": 68211,
+      "object": "objects/8232da6acc3c2b59-2026-09-05-internal-in-2019.json"
+    },
+    {
+      "path": "data/raw/migration-detail/2026-09-05-internal-in-2020.json",
+      "sha256": "9865c0e74f371cbd09378429c3ecc7af9eaaf5fe42cc670da0bb4e15dee9a10a",
+      "bytes": 68572,
+      "object": "objects/9865c0e74f371cbd-2026-09-05-internal-in-2020.json"
+    },
+    {
+      "path": "data/raw/migration-detail/2026-09-05-internal-in-2021.json",
+      "sha256": "4c56873e03c18ca828a1e0cc3f29b726c12f2318c3cb707e8afc56803afd7d8c",
+      "bytes": 68880,
+      "object": "objects/4c56873e03c18ca8-2026-09-05-internal-in-2021.json"
+    },
+    {
+      "path": "data/raw/migration-detail/2026-09-05-internal-in-2022.json",
+      "sha256": "76f392e8dc7c415c7184d0e70e90e7dba4e96499d95017c7fce1596f9b65d7b3",
+      "bytes": 68820,
+      "object": "objects/76f392e8dc7c415c-2026-09-05-internal-in-2022.json"
+    },
+    {
+      "path": "data/raw/migration-detail/2026-09-05-internal-in-2023.json",
+      "sha256": "96ce688eabebd37898c4f8c9239697d52060a1ec5c8063353b28c104e7dfaae2",
+      "bytes": 68884,
+      "object": "objects/96ce688eabebd378-2026-09-05-internal-in-2023.json"
+    },
+    {
+      "path": "data/raw/migration-detail/2026-09-05-internal-in-2024.json",
+      "sha256": "7d70d6735d9345e06da4e02dd625b0d0b472464256c3413b8142760b1e469aa2",
+      "bytes": 69008,
+      "object": "objects/7d70d6735d9345e0-2026-09-05-internal-in-2024.json"
+    },
+    {
+      "path": "data/raw/migration-detail/2026-09-05-internal-in-2025.json",
+      "sha256": "daf9de451547720a78774b5fffd1b1fa11db416030189c15fbf600eac0cb376d",
+      "bytes": 68881,
+      "object": "objects/daf9de451547720a-2026-09-05-internal-in-2025.json"
+    },
+    {
+      "path": "data/raw/migration-detail/2026-09-05-internal-out-2011.json",
+      "sha256": "fa4ff97fac3c57d10857de176457de0b4fd5fe2510f090a16124eb8ba03c01ce",
+      "bytes": 68007,
+      "object": "objects/fa4ff97fac3c57d1-2026-09-05-internal-out-2011.json"
+    },
+    {
+      "path": "data/raw/migration-detail/2026-09-05-internal-out-2012.json",
+      "sha256": "fc8976ce7e22bcd36d6ce1de66e0f1a1f28bf10273b5e273d4a907b88a480c45",
+      "bytes": 67935,
+      "object": "objects/fc8976ce7e22bcd3-2026-09-05-internal-out-2012.json"
+    },
+    {
+      "path": "data/raw/migration-detail/2026-09-05-internal-out-2013.json",
+      "sha256": "4469185be747d0722f8c5eeaf3ebf71f74b192a0b8aa5b03595f0ce2ab03286f",
+      "bytes": 68025,
+      "object": "objects/4469185be747d072-2026-09-05-internal-out-2013.json"
+    },
+    {
+      "path": "data/raw/migration-detail/2026-09-05-internal-out-2014.json",
+      "sha256": "119df2e9e55ca608915e07b54785609951c70aee2a20b76c6642808ddefddb32",
+      "bytes": 68326,
+      "object": "objects/119df2e9e55ca608-2026-09-05-internal-out-2014.json"
+    },
+    {
+      "path": "data/raw/migration-detail/2026-09-05-internal-out-2015.json",
+      "sha256": "309332f273dcf69c80299d9c0b96ec62d35c5d5c96855cb7b24b132ade8c9ce9",
+      "bytes": 68502,
+      "object": "objects/309332f273dcf69c-2026-09-05-internal-out-2015.json"
+    },
+    {
+      "path": "data/raw/migration-detail/2026-09-05-internal-out-2016.json",
+      "sha256": "e32f9d0aae7930653ebcda62c55dd1d7b9297735afbcf5f8d90e58c07e88f5b8",
+      "bytes": 68547,
+      "object": "objects/e32f9d0aae793065-2026-09-05-internal-out-2016.json"
+    },
+    {
+      "path": "data/raw/migration-detail/2026-09-05-internal-out-2017.json",
+      "sha256": "1e0be8df2914e19dd85c517edfe3f4565f39979d703e5d16bba772f11048377f",
+      "bytes": 68545,
+      "object": "objects/1e0be8df2914e19d-2026-09-05-internal-out-2017.json"
+    },
+    {
+      "path": "data/raw/migration-detail/2026-09-05-internal-out-2018.json",
+      "sha256": "ef30ae5c4e5cf1d77e1a770ee2317f9a93d14c30d07d3bb3937c4cf3149367c6",
+      "bytes": 68798,
+      "object": "objects/ef30ae5c4e5cf1d7-2026-09-05-internal-out-2018.json"
+    },
+    {
+      "path": "data/raw/migration-detail/2026-09-05-internal-out-2019.json",
+      "sha256": "a7865c15f85bc020a66e32accae694deaf7db78b679ed46f26542affc99a53ab",
+      "bytes": 68912,
+      "object": "objects/a7865c15f85bc020-2026-09-05-internal-out-2019.json"
+    },
+    {
+      "path": "data/raw/migration-detail/2026-09-05-internal-out-2020.json",
+      "sha256": "f39913152175f3400a7b5893e86d2be624b734a80ab7195964908af458f7dba3",
+      "bytes": 69083,
+      "object": "objects/f39913152175f340-2026-09-05-internal-out-2020.json"
+    },
+    {
+      "path": "data/raw/migration-detail/2026-09-05-internal-out-2021.json",
+      "sha256": "3fbc13353b85f51f3968ae0be8b9a412b7d192f34fc84034b6c956323abc6848",
+      "bytes": 69261,
+      "object": "objects/3fbc13353b85f51f-2026-09-05-internal-out-2021.json"
+    },
+    {
+      "path": "data/raw/migration-detail/2026-09-05-internal-out-2022.json",
+      "sha256": "9a26318c9916f8833b19fd16d6fecfa2395df2967b767bd7141142066e8e9ef9",
+      "bytes": 69184,
+      "object": "objects/9a26318c9916f883-2026-09-05-internal-out-2022.json"
+    },
+    {
+      "path": "data/raw/migration-detail/2026-09-05-internal-out-2023.json",
+      "sha256": "4c48b8e93dd295b273234f8ab181b8f5cda8a3ff51e9815c8031262403b3c113",
+      "bytes": 69332,
+      "object": "objects/4c48b8e93dd295b2-2026-09-05-internal-out-2023.json"
+    },
+    {
+      "path": "data/raw/migration-detail/2026-09-05-internal-out-2024.json",
+      "sha256": "864c377f974b3ec9ae57a9e088ff6f7b2bb61b86922e125a66422d9ffdc0cd1b",
+      "bytes": 69323,
+      "object": "objects/864c377f974b3ec9-2026-09-05-internal-out-2024.json"
+    },
+    {
+      "path": "data/raw/migration-detail/2026-09-05-internal-out-2025.json",
+      "sha256": "99f1d5a58a2b3c25f05ea4fbe29c556fe5be41f28d325e70b155576a4a6053bf",
+      "bytes": 69179,
+      "object": "objects/99f1d5a58a2b3c25-2026-09-05-internal-out-2025.json"
+    },
+    {
+      "path": "data/raw/migration-detail/2026-09-05-stock-by-nationality-2010-2025.json",
+      "sha256": "2a753f2b34e894dcd77e281e7d3767ce0a2935e2ce9248cd07695d52c1297b73",
+      "bytes": 259908,
+      "object": "objects/2a753f2b34e894dc-2026-09-05-stock-by-nationality-2010-2025.json"
+    },
+    {
+      "path": "data/raw/migration-detail/2026-09-05-stock-by-nationality-permit-2010.json",
+      "sha256": "ae7c60b5e2f0c78336036edcebbc71f076f380b0779f678d19c8b90f14c57198",
+      "bytes": 168297,
+      "object": "objects/ae7c60b5e2f0c783-2026-09-05-stock-by-nationality-permit-2010.json"
+    },
+    {
+      "path": "data/raw/migration-detail/2026-09-05-stock-by-nationality-permit-2011.json",
+      "sha256": "bed56036ec649da5cc64c65eea0462241aa8f4dceb4aaeac9bdfbbc95f8b1f2a",
+      "bytes": 168609,
+      "object": "objects/bed56036ec649da5-2026-09-05-stock-by-nationality-permit-2011.json"
+    },
+    {
+      "path": "data/raw/migration-detail/2026-09-05-stock-by-nationality-permit-2012.json",
+      "sha256": "1000a55dd7a7631b789811d7c549b4caf5f739319c0582db24cbb7f51569c8bd",
+      "bytes": 168926,
+      "object": "objects/1000a55dd7a7631b-2026-09-05-stock-by-nationality-permit-2012.json"
+    },
+    {
+      "path": "data/raw/migration-detail/2026-09-05-stock-by-nationality-permit-2013.json",
+      "sha256": "2e99d946d1cacff277feefe60e2082c098f493d1f848f7e2a5a4aa53f4f84507",
+      "bytes": 169016,
+      "object": "objects/2e99d946d1cacff2-2026-09-05-stock-by-nationality-permit-2013.json"
+    },
+    {
+      "path": "data/raw/public-finance/2026-09-05-finanzkennz-d.xlsx",
+      "sha256": "e7e7ba5208c81c4eb5bfc4f2f433fb1816ddc6e314b28832235066ae9d3e572b",
+      "bytes": 42072,
+      "object": "objects/e7e7ba5208c81c4e-2026-09-05-finanzkennz-d.xlsx"
+    },
+    {
+      "path": "data/raw/public-finance/2026-09-05-fir_art_funk.csv.sha256",
+      "sha256": "87e4e96ca025df9ad22a8e1fcccb73a0f91376a85be390916a9a4218fa035258",
+      "bytes": 242,
+      "object": "objects/87e4e96ca025df9a-2026-09-05-fir_art_funk.csv.sha256"
+    },
+    {
+      "path": "data/raw/public-finance/2026-09-05-fir_art_funk_codelist.csv",
+      "sha256": "c7e9bffb2d65716fa1fa7b2da150aac52b024ecf3c7d266131c200ba0fdc3c6b",
+      "bytes": 90403,
+      "object": "objects/c7e9bffb2d65716f-2026-09-05-fir_art_funk_codelist.csv"
+    },
+    {
+      "path": "data/raw/public-finance/2026-09-05-gdn_ab_5000-d.csv.sha256",
+      "sha256": "19617d3bd606cab060e0817ae0a910518ffcbb9821f054b7b043e6074af9c305",
+      "bytes": 241,
+      "object": "objects/19617d3bd606cab0-2026-09-05-gdn_ab_5000-d.csv.sha256"
+    },
+    {
+      "path": "data/raw/public-finance/2026-09-05-gdn_nettoschuld-d.xlsx",
+      "sha256": "0fb132ff17005e0823a60a827c3d3f04e6e8674291b6a79a232e15ec2a071f66",
+      "bytes": 32922,
+      "object": "objects/0fb132ff17005e08-2026-09-05-gdn_nettoschuld-d.xlsx"
+    },
+    {
+      "path": "data/raw/public-finance/2026-09-05-gdn_schuld-d.xlsx",
+      "sha256": "db4ccf6862590087a422adefc80dba6a464bf49ff5db936c2e3aed12c3ce9187",
+      "bytes": 32656,
+      "object": "objects/db4ccf6862590087-2026-09-05-gdn_schuld-d.xlsx"
+    },
+    {
+      "path": "data/raw/public-finance/2026-09-05-ktn_nettoschuld-d.xlsx",
+      "sha256": "912cf42c9b1fc35ec18529855c9e3d09327c15867a690b49b3568610c1c5d12e",
+      "bytes": 33445,
+      "object": "objects/912cf42c9b1fc35e-2026-09-05-ktn_nettoschuld-d.xlsx"
+    },
+    {
+      "path": "data/raw/public-finance/2026-09-05-ktn_schuld-d.xlsx",
+      "sha256": "ea9728d6ea26b0b4460c66a53d4ba42068fbf9d9285287203932a160086519e5",
+      "bytes": 33238,
+      "object": "objects/ea9728d6ea26b0b4-2026-09-05-ktn_schuld-d.xlsx"
+    },
+    {
+      "path": "data/raw/public-finance/2026-09-05-main_extern.csv",
+      "sha256": "fe48784fe905ca3e3612c70085acb7b993074db8ca0a5002230ee51fc3f3474c",
+      "bytes": 413725,
+      "object": "objects/fe48784fe905ca3e-2026-09-05-main_extern.csv"
+    },
+    {
+      "path": "data/raw/public-finance/2026-09-05-main_extern_codelist.csv",
+      "sha256": "83bde8c78523d7b09081f6686804c67182c1bab9b33bc10af8d5fc7028496b0e",
+      "bytes": 4848,
+      "object": "objects/83bde8c78523d7b0-2026-09-05-main_extern_codelist.csv"
+    },
+    {
+      "path": "data/raw/public-finance/2026-09-05-readme-d.xlsx",
+      "sha256": "3cac67f35aaf6c2220223ba0e9d508b23d2d3b5f6b7135b66ee88a73e0367560",
+      "bytes": 64937,
+      "object": "objects/3cac67f35aaf6c22-2026-09-05-readme-d.xlsx"
+    },
+    {
+      "path": "data/raw/public-finance/2026-09-05-standardauswertung.csv.sha256",
+      "sha256": "b591da4ddb230dd3d37fa4e2c42fc7fec56c40d8375d27864ab47f84ba2244d8",
+      "bytes": 247,
+      "object": "objects/b591da4ddb230dd3-2026-09-05-standardauswertung.csv.sha256"
+    },
+    {
+      "path": "data/raw/public-finance/2026-09-05-standardauswertung_codelist.csv",
+      "sha256": "c87e9b20c8e5c4a063d831362ab06b5fdf67be075281b8358d50045088481181",
+      "bytes": 294528,
+      "object": "objects/c87e9b20c8e5c4a0-2026-09-05-standardauswertung_codelist.csv"
+    },
+    {
+      "path": "data/raw/public-finance/2026-09-05-stdt_nettoschuld-d.xlsx",
+      "sha256": "847e5a667acaecdce4529e3f6b4bdd4ec81e9cefedfe81264ea76b579d6c13a3",
+      "bytes": 154814,
+      "object": "objects/847e5a667acaecdc-2026-09-05-stdt_nettoschuld-d.xlsx"
+    },
+    {
+      "path": "data/raw/public-finance/2026-09-05-stdt_schuld-d.xlsx",
+      "sha256": "be08463cfafeace7c36e12a2e336b5e1148d6302751dc21ce6dcf30367ffc9b8",
+      "bytes": 152678,
+      "object": "objects/be08463cfafeace7-2026-09-05-stdt_schuld-d.xlsx"
+    },
+    {
+      "path": "data/raw/public-finance/2026-09-05-stdt_vgl-d.xlsx",
+      "sha256": "773ece9b2d4a635b1136d5ecc1417e3305c3e31643d11dc38f5b8d2d3558e164",
+      "bytes": 1176211,
+      "object": "objects/773ece9b2d4a635b-2026-09-05-stdt_vgl-d.xlsx"
+    },
+    {
+      "path": "data/raw/vehicles-sdmx/2026-09-05-mfz0-holder-group-canton-2005-2011.json.gz",
+      "sha256": "c8b1f639351ec809422744b2f3271c84490053d0b7553976bd9bf1ea6e3d99dd",
+      "bytes": 26509,
+      "object": "objects/c8b1f639351ec809-2026-09-05-mfz0-holder-group-canton-2005-2011.json.gz"
+    },
+    {
+      "path": "data/raw/vehicles-sdmx/2026-09-05-mfz0-holder-group-canton-2012-2018.json.gz",
+      "sha256": "f56e04da3e87baa30659e928b99ca0c980155a2f64303f5e8b42acb34a74d429",
+      "bytes": 35318,
+      "object": "objects/f56e04da3e87baa3-2026-09-05-mfz0-holder-group-canton-2012-2018.json.gz"
+    },
+    {
+      "path": "data/raw/vehicles-sdmx/2026-09-05-mfz0-holder-group-canton-2019-2025.json.gz",
+      "sha256": "6f78225d890486bb677d6a4f6f691c2a58dd9d5dceedd696a7cc313138e57931",
+      "bytes": 47500,
+      "object": "objects/6f78225d890486bb-2026-09-05-mfz0-holder-group-canton-2019-2025.json.gz"
+    },
+    {
+      "path": "data/raw/vehicles-sdmx/2026-09-05-mfz0-type-canton-2025.json.gz",
+      "sha256": "c6b437d5014c43a2509a645e8bcdbffb617db5be9764ef831277dff99befd9d3",
+      "bytes": 11731,
+      "object": "objects/c6b437d5014c43a2-2026-09-05-mfz0-type-canton-2025.json.gz"
+    },
+    {
+      "path": "data/raw/vehicles-sdmx/2026-09-05-mfz1-make-age-ch-2025.json.gz",
+      "sha256": "7d4d306c4f5c543522191b68af913fbb39955523b34bb07da5f76a8b7da09e00",
+      "bytes": 18920,
+      "object": "objects/7d4d306c4f5c5435-2026-09-05-mfz1-make-age-ch-2025.json.gz"
+    },
+    {
+      "path": "data/raw/vehicles-sdmx/2026-09-05-mfz1-make-canton-2005-2007.json.gz",
+      "sha256": "e8da4ede32cfaa495c104127c9a30b316c167477f9dc106ce263f47d1f7a6836",
+      "bytes": 95457,
+      "object": "objects/e8da4ede32cfaa49-2026-09-05-mfz1-make-canton-2005-2007.json.gz"
+    },
+    {
+      "path": "data/raw/vehicles-sdmx/2026-09-05-mfz1-make-canton-2008-2010.json.gz",
+      "sha256": "9367eef5249a1ebb201098de54c2e3d76aaca9b2a277dcf56d9e26d6baa9db07",
+      "bytes": 88854,
+      "object": "objects/9367eef5249a1ebb-2026-09-05-mfz1-make-canton-2008-2010.json.gz"
+    },
+    {
+      "path": "data/raw/vehicles-sdmx/2026-09-05-mfz1-make-canton-2011-2013.json.gz",
+      "sha256": "6f92ac5385f99972be339ad5e4ac29d48871108777fb28c72a62b179e6a4097c",
+      "bytes": 90263,
+      "object": "objects/6f92ac5385f99972-2026-09-05-mfz1-make-canton-2011-2013.json.gz"
+    },
+    {
+      "path": "data/raw/vehicles-sdmx/2026-09-05-mfz1-make-canton-2014-2016.json.gz",
+      "sha256": "0113665470a3d6abdf6dd5f4e2b4a8ef07a86fdbe8a9f25f56672021f12e07fc",
+      "bytes": 90144,
+      "object": "objects/0113665470a3d6ab-2026-09-05-mfz1-make-canton-2014-2016.json.gz"
+    },
+    {
+      "path": "data/raw/vehicles-sdmx/2026-09-05-mfz1-make-canton-2017-2019.json.gz",
+      "sha256": "4a0ce5d26015207101d2c7bd8ff553e02cc26be8e89d3036fe37f133b51338b8",
+      "bytes": 90146,
+      "object": "objects/4a0ce5d260152071-2026-09-05-mfz1-make-canton-2017-2019.json.gz"
+    },
+    {
+      "path": "data/raw/vehicles-sdmx/2026-09-05-mfz1-make-canton-2020-2022.json.gz",
+      "sha256": "31f9ad3981497897cb16d44a6135fa42aa08adaf20ddc74746ac1f3e1f808219",
+      "bytes": 91573,
+      "object": "objects/31f9ad3981497897-2026-09-05-mfz1-make-canton-2020-2022.json.gz"
+    },
+    {
+      "path": "data/raw/vehicles-sdmx/2026-09-05-mfz1-make-canton-2023-2025.json.gz",
+      "sha256": "af2e8fa1c4b6a8b2307af1e1135ada8d946beaa96f670f90b591c0665b23216a",
+      "bytes": 94667,
+      "object": "objects/af2e8fa1c4b6a8b2-2026-09-05-mfz1-make-canton-2023-2025.json.gz"
+    },
+    {
+      "path": "data/raw/vehicles-sdmx/2026-09-05-mfz1-make-fuel-canton-2023.json.gz",
+      "sha256": "8fdef865eaa1bcf7c446ed30307a6121a689dbf35344e0eb932b2936b90e8486",
+      "bytes": 77145,
+      "object": "objects/8fdef865eaa1bcf7-2026-09-05-mfz1-make-fuel-canton-2023.json.gz"
+    },
+    {
+      "path": "data/raw/vehicles-sdmx/2026-09-05-mfz1-make-fuel-canton-2024.json.gz",
+      "sha256": "105dc2560dc216207f4e42bc454bfb173ef4d38e4c10e992de5dd74c5441d87f",
+      "bytes": 79602,
+      "object": "objects/105dc2560dc21620-2026-09-05-mfz1-make-fuel-canton-2024.json.gz"
+    },
+    {
+      "path": "data/raw/vehicles-sdmx/2026-09-05-mfz1-make-fuel-canton-2025.json.gz",
+      "sha256": "6fda99373ea1d5f2db36414b98307c310096e94e68a973ae2eb5f0df96b6f991",
+      "bytes": 81239,
+      "object": "objects/6fda99373ea1d5f2-2026-09-05-mfz1-make-fuel-canton-2025.json.gz"
+    },
+    {
+      "path": "data/raw/vehicles-sdmx/2026-09-05-mfz1emis-by_co2_nedc-2021-2025.json.gz",
+      "sha256": "e6ca2134e1d628594d5240f75c44bc51e8268d3f585ffe8bd2fc83e3f06d80a9",
+      "bytes": 12933,
+      "object": "objects/e6ca2134e1d62859-2026-09-05-mfz1emis-by_co2_nedc-2021-2025.json.gz"
+    },
+    {
+      "path": "data/raw/vehicles-sdmx/2026-09-05-mfz1emis-by_econsumption_wltp-2021-2025.json.gz",
+      "sha256": "8b94535a54d248ba5a07fa439a815c9006481827aeccc52ae3bcf771afd38daf",
+      "bytes": 8733,
+      "object": "objects/8b94535a54d248ba-2026-09-05-mfz1emis-by_econsumption_wltp-2021-2025.json.gz"
+    },
+    {
+      "path": "data/raw/vehicles-sdmx/2026-09-05-mfz1emis-by_empty_weight-2021-2025.json.gz",
+      "sha256": "1ee180e56cca49abc1b2f06c1b7b5ef9f4df3129cee6af31618cc2a70c82c70b",
+      "bytes": 10241,
+      "object": "objects/1ee180e56cca49ab-2026-09-05-mfz1emis-by_empty_weight-2021-2025.json.gz"
+    },
+    {
+      "path": "data/raw/vehicles-sdmx/2026-09-05-mfz1emis-by_fuel-2021-2025.json.gz",
+      "sha256": "226ffff35db5c09ada97b2496d88733b33309cf7dd2af4263ea98a3e859c8d05",
+      "bytes": 13204,
+      "object": "objects/226ffff35db5c09a-2026-09-05-mfz1emis-by_fuel-2021-2025.json.gz"
+    },
+    {
+      "path": "data/raw/vehicles-sdmx/2026-09-05-mfz1emis-by_holder_age-2021-2025.json.gz",
+      "sha256": "f4614cce9e85464901bc785d3ec9d75be71c5f67fe824c94932c4b2182828069",
+      "bytes": 8789,
+      "object": "objects/f4614cce9e854649-2026-09-05-mfz1emis-by_holder_age-2021-2025.json.gz"
+    },
+    {
+      "path": "data/raw/vehicles-sdmx/2026-09-05-mfz1emis-by_holder_type-2021-2025.json.gz",
+      "sha256": "ffa56de977218d20d774af906b6067b8f2ee34af829c065f7e3e421baa69d93b",
+      "bytes": 6463,
+      "object": "objects/ffa56de977218d20-2026-09-05-mfz1emis-by_holder_type-2021-2025.json.gz"
+    },
+    {
+      "path": "data/raw/vehicles-sdmx/2026-09-05-mfz1emis-total-2021-2025.json.gz",
+      "sha256": "dc7983b8018d5c27890790ccc94e5deba926b636232b09dfbcba32dba29309e7",
+      "bytes": 4575,
+      "object": "objects/dc7983b8018d5c27-2026-09-05-mfz1emis-total-2021-2025.json.gz"
+    },
+    {
+      "path": "data/raw/vehicles-sdmx/2026-09-05-mfz1tech-by_drivetrain-2021-2025.json.gz",
+      "sha256": "aac82d03df2160a4fadc917673e3390974ccf36907fa223c5dab5b17d50e383d",
+      "bytes": 7382,
+      "object": "objects/aac82d03df2160a4-2026-09-05-mfz1tech-by_drivetrain-2021-2025.json.gz"
+    },
+    {
+      "path": "data/raw/vehicles-sdmx/2026-09-05-mfz1tech-by_empty_weight-2021-2025.json.gz",
+      "sha256": "93b85f994afdf805c4a9f72bcbd4eff67b3155a16b8536a6c0993a9f87226baa",
+      "bytes": 9822,
+      "object": "objects/93b85f994afdf805-2026-09-05-mfz1tech-by_empty_weight-2021-2025.json.gz"
+    },
+    {
+      "path": "data/raw/vehicles-sdmx/2026-09-05-mfz1tech-by_fuel-2021-2025.json.gz",
+      "sha256": "77bed6aab445f44c8f3e19b62e6c173c18a8b51692a9e1932efef9a9098b6df4",
+      "bytes": 12760,
+      "object": "objects/77bed6aab445f44c-2026-09-05-mfz1tech-by_fuel-2021-2025.json.gz"
+    },
+    {
+      "path": "data/raw/vehicles-sdmx/2026-09-05-mfz1tech-by_gearbox-2021-2025.json.gz",
+      "sha256": "88d7cce9e2f7d287b184ea42971f6dc1d805de3861381eaedaa60282aa412d75",
+      "bytes": 6386,
+      "object": "objects/88d7cce9e2f7d287-2026-09-05-mfz1tech-by_gearbox-2021-2025.json.gz"
+    },
+    {
+      "path": "data/raw/vehicles-sdmx/2026-09-05-mfz1tech-by_motor_power-2021-2025.json.gz",
+      "sha256": "4549b3aa0f24a72c6ae4a0dac9a536ea9ab8e85adc4bf2e4fb4c71fb81c3d724",
+      "bytes": 11398,
+      "object": "objects/4549b3aa0f24a72c-2026-09-05-mfz1tech-by_motor_power-2021-2025.json.gz"
+    },
+    {
+      "path": "data/raw/vehicles-sdmx/2026-09-05-mfz1tech-by_vehicle_age-2021-2025.json.gz",
+      "sha256": "d0f8881b96f5ed1ab956fa031d23258467bc10ee1d60e772b5f1e21d6795dfb9",
+      "bytes": 10372,
+      "object": "objects/d0f8881b96f5ed1a-2026-09-05-mfz1tech-by_vehicle_age-2021-2025.json.gz"
+    },
+    {
+      "path": "data/raw/vehicles-sdmx/2026-09-05-mfz1tech-total-2021-2025.json.gz",
+      "sha256": "ffb0e731ae3ec9eae781672f0fdd13e578a45efdd33f2befcf5610514d6ae257",
+      "bytes": 4482,
+      "object": "objects/ffb0e731ae3ec9ea-2026-09-05-mfz1tech-total-2021-2025.json.gz"
+    },
+    {
+      "path": "data/raw/vehicles-sdmx/2026-09-05-mfz3-by_body_shape-2021-2025.json.gz",
+      "sha256": "87b831b3d1342a2d3b032947e3c5e76a4bb073b2d000daa7530bea85ab420ac6",
+      "bytes": 11551,
+      "object": "objects/87b831b3d1342a2d-2026-09-05-mfz3-by_body_shape-2021-2025.json.gz"
+    },
+    {
+      "path": "data/raw/vehicles-sdmx/2026-09-05-mfz3-by_fuel-2021-2025.json.gz",
+      "sha256": "d92e89e00144f4e7108ad4a1d6098d819213d6af05e463cb8badab8acc6a1615",
+      "bytes": 9578,
+      "object": "objects/d92e89e00144f4e7-2026-09-05-mfz3-by_fuel-2021-2025.json.gz"
+    },
+    {
+      "path": "data/raw/vehicles-sdmx/2026-09-05-mfz3-by_total_weight-2021-2025.json.gz",
+      "sha256": "9ee6940aee0f655b3c408b46dba85286eaefcb779b85988b5b1c91b3fecb2a03",
+      "bytes": 9516,
+      "object": "objects/9ee6940aee0f655b-2026-09-05-mfz3-by_total_weight-2021-2025.json.gz"
+    },
+    {
+      "path": "data/raw/vehicles-sdmx/2026-09-05-mfz3-by_vehicle_type-2021-2025.json.gz",
+      "sha256": "996f590fd6d9b88aea937425e87fc20b505c72fa4b4b4d3deabdc7ad0920ae1f",
+      "bytes": 6851,
+      "object": "objects/996f590fd6d9b88a-2026-09-05-mfz3-by_vehicle_type-2021-2025.json.gz"
+    },
+    {
+      "path": "data/raw/vehicles-sdmx/2026-09-05-mfz3-total-2021-2025.json.gz",
+      "sha256": "0a2e33d66d469a7e0ab9334cff48bed261b970ec1e2c322334f715ca0b3464a4",
+      "bytes": 4364,
+      "object": "objects/0a2e33d66d469a7e-2026-09-05-mfz3-total-2021-2025.json.gz"
+    },
+    {
+      "path": "data/raw/vehicles-sdmx/2026-09-05-mfz3-weight-fuel-canton-2021-2025.json.gz",
+      "sha256": "927af106cce31212768de352f185470e84fbe20156f15103311452055f8cca2d",
+      "bytes": 23151,
+      "object": "objects/927af106cce31212-2026-09-05-mfz3-weight-fuel-canton-2021-2025.json.gz"
+    },
+    {
+      "path": "data/raw/vehicles-sdmx/2026-09-05-mfz6-by_body_shape-2021-2025.json.gz",
+      "sha256": "a312768e171a1735d718117f0d2a94ba489ffe1c9f2b690324903e4b7e1ced8b",
+      "bytes": 5370,
+      "object": "objects/a312768e171a1735-2026-09-05-mfz6-by_body_shape-2021-2025.json.gz"
+    },
+    {
+      "path": "data/raw/vehicles-sdmx/2026-09-05-mfz6-by_engine_capacity-2021-2025.json.gz",
+      "sha256": "a3b47d25d282e8ff5fd8b2de3ca6ba9da7920777c9ebb9b7e999fb50e8a5c626",
+      "bytes": 10684,
+      "object": "objects/a3b47d25d282e8ff-2026-09-05-mfz6-by_engine_capacity-2021-2025.json.gz"
+    },
+    {
+      "path": "data/raw/vehicles-sdmx/2026-09-05-mfz6-by_fuel-2021-2025.json.gz",
+      "sha256": "780357ec4c8af5e35c30d7a09fd84ff677a3ecccaad6d9a8e5a06b4832491941",
+      "bytes": 6747,
+      "object": "objects/780357ec4c8af5e3-2026-09-05-mfz6-by_fuel-2021-2025.json.gz"
+    },
+    {
+      "path": "data/raw/vehicles-sdmx/2026-09-05-mfz6-by_vehicle_age-2021-2025.json.gz",
+      "sha256": "44bebe950349df70ca47c6a3e0ae15c7492b11822d51532fabbd8bf342a4d455",
+      "bytes": 8977,
+      "object": "objects/44bebe950349df70-2026-09-05-mfz6-by_vehicle_age-2021-2025.json.gz"
+    },
+    {
+      "path": "data/raw/vehicles-sdmx/2026-09-05-mfz6-by_vehicle_type-2021-2025.json.gz",
+      "sha256": "3f93b0330838205da598f9a9c020804c35515b80e89b876d70bc687d3e0fd523",
+      "bytes": 9905,
+      "object": "objects/3f93b0330838205d-2026-09-05-mfz6-by_vehicle_type-2021-2025.json.gz"
+    },
+    {
+      "path": "data/raw/vehicles-sdmx/2026-09-05-mfz6-total-2021-2025.json.gz",
+      "sha256": "ab3061f114c59cd0a8d7292f297139558d7359d9ca9e19e7047ecb185cb08e14",
+      "bytes": 3719,
+      "object": "objects/ab3061f114c59cd0-2026-09-05-mfz6-total-2021-2025.json.gz"
+    },
+    {
+      "path": "data/raw/vehicles-sdmx/2026-09-05-structure-DF_MFZ_0_GENERAL-de.json.gz",
+      "sha256": "c091d72d72c7f61c944bac52e101c7521479e14ed5c88741f46009650658a6d8",
+      "bytes": 33521,
+      "object": "objects/c091d72d72c7f61c-2026-09-05-structure-DF_MFZ_0_GENERAL-de.json.gz"
+    },
+    {
+      "path": "data/raw/vehicles-sdmx/2026-09-05-structure-DF_MFZ_0_GENERAL-en.json.gz",
+      "sha256": "66662d3eaabdbd4377a016562d925a2a3801ed023ecc64839c239c4245cd6def",
+      "bytes": 30968,
+      "object": "objects/66662d3eaabdbd43-2026-09-05-structure-DF_MFZ_0_GENERAL-en.json.gz"
+    },
+    {
+      "path": "data/raw/vehicles-sdmx/2026-09-05-structure-DF_MFZ_0_GENERAL-fr.json.gz",
+      "sha256": "53a10806a1314bd71a59794e2642138eea11fc5c4802a4ed7975985d988106d9",
+      "bytes": 34784,
+      "object": "objects/53a10806a1314bd7-2026-09-05-structure-DF_MFZ_0_GENERAL-fr.json.gz"
+    },
+    {
+      "path": "data/raw/vehicles-sdmx/2026-09-05-structure-DF_MFZ_0_GENERAL-it.json.gz",
+      "sha256": "5bfd2a4faf3133f66f4856acbddba22ceacd14b2078bda9b4d1b0e8c2cf599c3",
+      "bytes": 32249,
+      "object": "objects/5bfd2a4faf3133f6-2026-09-05-structure-DF_MFZ_0_GENERAL-it.json.gz"
+    },
+    {
+      "path": "data/raw/vehicles-sdmx/2026-09-05-structure-DF_MFZ_1_EMISSION-de.json.gz",
+      "sha256": "24f29aac03756a5a06a0c30e54f47c3320661a78662fd2af4d089e320b953d64",
+      "bytes": 33467,
+      "object": "objects/24f29aac03756a5a-2026-09-05-structure-DF_MFZ_1_EMISSION-de.json.gz"
+    },
+    {
+      "path": "data/raw/vehicles-sdmx/2026-09-05-structure-DF_MFZ_1_EMISSION-en.json.gz",
+      "sha256": "eb5a2f2982324abe421833d3d927e4d448e6b782ec887bcf5ccc4d93578e1ca5",
+      "bytes": 30642,
+      "object": "objects/eb5a2f2982324abe-2026-09-05-structure-DF_MFZ_1_EMISSION-en.json.gz"
+    },
+    {
+      "path": "data/raw/vehicles-sdmx/2026-09-05-structure-DF_MFZ_1_EMISSION-fr.json.gz",
+      "sha256": "32117b94c969adb72c15752e42b80bbd66de38b22e0f2d9ed1805b630d3f4f44",
+      "bytes": 34754,
+      "object": "objects/32117b94c969adb7-2026-09-05-structure-DF_MFZ_1_EMISSION-fr.json.gz"
+    },
+    {
+      "path": "data/raw/vehicles-sdmx/2026-09-05-structure-DF_MFZ_1_EMISSION-it.json.gz",
+      "sha256": "d05a4308c5cba544c6ab7b443ccde96bc77c06dbc165f124bdd2af3c68bbcb98",
+      "bytes": 31969,
+      "object": "objects/d05a4308c5cba544-2026-09-05-structure-DF_MFZ_1_EMISSION-it.json.gz"
+    },
+    {
+      "path": "data/raw/vehicles-sdmx/2026-09-05-structure-DF_MFZ_1_MAKE-de.json.gz",
+      "sha256": "dfb69b1ad0caf0c22482828edb9565241734c2ca9b6b3fcd381c28a6c2a4f11d",
+      "bytes": 117336,
+      "object": "objects/dfb69b1ad0caf0c2-2026-09-05-structure-DF_MFZ_1_MAKE-de.json.gz"
+    },
+    {
+      "path": "data/raw/vehicles-sdmx/2026-09-05-structure-DF_MFZ_1_MAKE-en.json.gz",
+      "sha256": "bd7f2e75c7760102c45deb37e908d6e5610f47bcf9ca134a07e9a17645580871",
+      "bytes": 114489,
+      "object": "objects/bd7f2e75c7760102-2026-09-05-structure-DF_MFZ_1_MAKE-en.json.gz"
+    },
+    {
+      "path": "data/raw/vehicles-sdmx/2026-09-05-structure-DF_MFZ_1_MAKE-fr.json.gz",
+      "sha256": "d8a6ae0237bb462b8e61cbf50a11a668458e149aa40570e10dba108fa6c59a20",
+      "bytes": 118569,
+      "object": "objects/d8a6ae0237bb462b-2026-09-05-structure-DF_MFZ_1_MAKE-fr.json.gz"
+    },
+    {
+      "path": "data/raw/vehicles-sdmx/2026-09-05-structure-DF_MFZ_1_MAKE-it.json.gz",
+      "sha256": "f8cf8f3feec9495e8466bc7eecc5fe6e208dd6bf2e829b734dd2eab34b963fcd",
+      "bytes": 115846,
+      "object": "objects/f8cf8f3feec9495e-2026-09-05-structure-DF_MFZ_1_MAKE-it.json.gz"
+    },
+    {
+      "path": "data/raw/vehicles-sdmx/2026-09-05-structure-DF_MFZ_1_TECH-de.json.gz",
+      "sha256": "2d1d8ba87719bedc6eb9b037ac87848f0dc5112186eca19702e249c364d23cee",
+      "bytes": 33243,
+      "object": "objects/2d1d8ba87719bedc-2026-09-05-structure-DF_MFZ_1_TECH-de.json.gz"
+    },
+    {
+      "path": "data/raw/vehicles-sdmx/2026-09-05-structure-DF_MFZ_1_TECH-en.json.gz",
+      "sha256": "997b1a5147c751042c2df4d82894201638af1ab329d3e5deec555e3a9ccaac18",
+      "bytes": 30547,
+      "object": "objects/997b1a5147c75104-2026-09-05-structure-DF_MFZ_1_TECH-en.json.gz"
+    },
+    {
+      "path": "data/raw/vehicles-sdmx/2026-09-05-structure-DF_MFZ_1_TECH-fr.json.gz",
+      "sha256": "a648acb735357c909d529f97873c00445757cf72c73126a4813f5b62fa14d9f6",
+      "bytes": 34551,
+      "object": "objects/a648acb735357c90-2026-09-05-structure-DF_MFZ_1_TECH-fr.json.gz"
+    },
+    {
+      "path": "data/raw/vehicles-sdmx/2026-09-05-structure-DF_MFZ_1_TECH-it.json.gz",
+      "sha256": "9661a8f82c9aed053effba372b456c76cfa97f985435cab63f81efdf6a586ad7",
+      "bytes": 31848,
+      "object": "objects/9661a8f82c9aed05-2026-09-05-structure-DF_MFZ_1_TECH-it.json.gz"
+    },
+    {
+      "path": "data/raw/vehicles-sdmx/2026-09-05-structure-DF_MFZ_3-de.json.gz",
+      "sha256": "d037690765af91b9007778a936b5e453c99deee2ec633b29ff4c6e4a6dc6e3be",
+      "bytes": 33590,
+      "object": "objects/d037690765af91b9-2026-09-05-structure-DF_MFZ_3-de.json.gz"
+    },
+    {
+      "path": "data/raw/vehicles-sdmx/2026-09-05-structure-DF_MFZ_3-en.json.gz",
+      "sha256": "0a13c029ef113b0c8740e1b45a6f910b87edb125d3c60db30aac9a50b9d9b9bd",
+      "bytes": 30943,
+      "object": "objects/0a13c029ef113b0c-2026-09-05-structure-DF_MFZ_3-en.json.gz"
+    },
+    {
+      "path": "data/raw/vehicles-sdmx/2026-09-05-structure-DF_MFZ_3-fr.json.gz",
+      "sha256": "d3813fac8095b42f411a98f527ffae7fa06e42f83be08cc7b8f6df8bb16db2de",
+      "bytes": 34887,
+      "object": "objects/d3813fac8095b42f-2026-09-05-structure-DF_MFZ_3-fr.json.gz"
+    },
+    {
+      "path": "data/raw/vehicles-sdmx/2026-09-05-structure-DF_MFZ_3-it.json.gz",
+      "sha256": "d4a634d6beb7df97db91dff0fd680ae1a9435d753505ea5abe74299db865af09",
+      "bytes": 32252,
+      "object": "objects/d4a634d6beb7df97-2026-09-05-structure-DF_MFZ_3-it.json.gz"
+    },
+    {
+      "path": "data/raw/vehicles-sdmx/2026-09-05-structure-DF_MFZ_6-de.json.gz",
+      "sha256": "68684396a54b5905e0ccc1f5971682d6cc1e7a95cb82b99a5f9ded9ba1d5acbd",
+      "bytes": 33682,
+      "object": "objects/68684396a54b5905-2026-09-05-structure-DF_MFZ_6-de.json.gz"
+    },
+    {
+      "path": "data/raw/vehicles-sdmx/2026-09-05-structure-DF_MFZ_6-en.json.gz",
+      "sha256": "3f5e97f9f9dbcd674d6be43d16f6c69b673c2786ed3e91d82193f777db2f2316",
+      "bytes": 31065,
+      "object": "objects/3f5e97f9f9dbcd67-2026-09-05-structure-DF_MFZ_6-en.json.gz"
+    },
+    {
+      "path": "data/raw/vehicles-sdmx/2026-09-05-structure-DF_MFZ_6-fr.json.gz",
+      "sha256": "131e67a94a031ac0464052d573b882d124c582d597beac1b9495f1aa62291804",
+      "bytes": 34988,
+      "object": "objects/131e67a94a031ac0-2026-09-05-structure-DF_MFZ_6-fr.json.gz"
+    },
+    {
+      "path": "data/raw/vehicles-sdmx/2026-09-05-structure-DF_MFZ_6-it.json.gz",
+      "sha256": "b1ba59d0f2448c3a554b57ea763a34616793a9bf83c8fc7be1534709b3c93898",
+      "bytes": 32373,
+      "object": "objects/b1ba59d0f2448c3a-2026-09-05-structure-DF_MFZ_6-it.json.gz"
+    },
+    {
+      "path": "data/raw/vehicles/2026-09-05-new-2010.json",
+      "sha256": "2c56834b1859bd148cc00b8d0e35da37974fdd2f6b5d49917fe99c32ca1c0002",
+      "bytes": 870817,
+      "object": "objects/2c56834b1859bd14-2026-09-05-new-2010.json"
+    },
+    {
+      "path": "data/raw/vehicles/2026-09-05-new-2011.json",
+      "sha256": "ab8ae29f1f99e8d2d69561363a14fc99ff59493a301e67e921f7af39aab76d6d",
+      "bytes": 871418,
+      "object": "objects/ab8ae29f1f99e8d2-2026-09-05-new-2011.json"
+    },
+    {
+      "path": "data/raw/vehicles/2026-09-05-new-2012.json",
+      "sha256": "207fd1a123ba85d571d7f6bec725263d8e13dc55d861df72da8f1f2178976316",
+      "bytes": 871592,
+      "object": "objects/207fd1a123ba85d5-2026-09-05-new-2012.json"
+    },
+    {
+      "path": "data/raw/vehicles/2026-09-05-new-2013.json",
+      "sha256": "df8b4e768f51753c8153d86c41f06b395efbdf146c8bdb41287db0e1a19df5f9",
+      "bytes": 871365,
+      "object": "objects/df8b4e768f51753c-2026-09-05-new-2013.json"
+    },
+    {
+      "path": "data/raw/vehicles/2026-09-05-new-2014.json",
+      "sha256": "65920baa9fe6661e7376eae8574d4630776694ae21fe23967e5460a2feabc061",
+      "bytes": 871328,
+      "object": "objects/65920baa9fe6661e-2026-09-05-new-2014.json"
+    },
+    {
+      "path": "data/raw/vehicles/2026-09-05-new-2015.json",
+      "sha256": "7a4319568828cc6afb59df6bd126a538f4ffd5c2bd9e70c4e64cd88590980895",
+      "bytes": 871745,
+      "object": "objects/7a4319568828cc6a-2026-09-05-new-2015.json"
+    },
+    {
+      "path": "data/raw/vehicles/2026-09-05-new-2016.json",
+      "sha256": "44e5ca4043af14821def4bbdc41c00caddd4da9143273f3d5fa09143dd987368",
+      "bytes": 871582,
+      "object": "objects/44e5ca4043af1482-2026-09-05-new-2016.json"
+    },
+    {
+      "path": "data/raw/vehicles/2026-09-05-new-2017.json",
+      "sha256": "38e86a6d9c89daaf4dc6041c24a9488430819cfb2ff448befc840df96703c1dd",
+      "bytes": 871633,
+      "object": "objects/38e86a6d9c89daaf-2026-09-05-new-2017.json"
+    },
+    {
+      "path": "data/raw/vehicles/2026-09-05-new-2018.json",
+      "sha256": "2fbed51c0751c5693b79f817be5845e9e797d440d796f1223eb056c1ebc593fc",
+      "bytes": 871356,
+      "object": "objects/2fbed51c0751c569-2026-09-05-new-2018.json"
+    },
+    {
+      "path": "data/raw/vehicles/2026-09-05-new-2019.json",
+      "sha256": "f254aa78b19e7992536a64473f243c8e9a0038a4c22c93bff0485b67f00746dd",
+      "bytes": 871754,
+      "object": "objects/f254aa78b19e7992-2026-09-05-new-2019.json"
+    },
+    {
+      "path": "data/raw/vehicles/2026-09-05-new-2020.json",
+      "sha256": "8fa4c60b707bbabaa1793a9925b0d2aff70d2fdefa1c0fc80ff423512174c438",
+      "bytes": 871789,
+      "object": "objects/8fa4c60b707bbaba-2026-09-05-new-2020.json"
+    },
+    {
+      "path": "data/raw/vehicles/2026-09-05-new-2021.json",
+      "sha256": "904f9370c42bfba549c92b4cb55dd72268e8d5b628d4a2b59a15f73e48ca4266",
+      "bytes": 872660,
+      "object": "objects/904f9370c42bfba5-2026-09-05-new-2021.json"
+    },
+    {
+      "path": "data/raw/vehicles/2026-09-05-new-2022.json",
+      "sha256": "7974fbffb3dc5172cbd3172ce98326a7d70d22734f2eef442fba66225171d1e6",
+      "bytes": 872038,
+      "object": "objects/7974fbffb3dc5172-2026-09-05-new-2022.json"
+    },
+    {
+      "path": "data/raw/vehicles/2026-09-05-new-2023.json",
+      "sha256": "464c6b680def392c3336c4c5fbfabf2ce4a4180dbcb517d063abca7e921b4d67",
+      "bytes": 872428,
+      "object": "objects/464c6b680def392c-2026-09-05-new-2023.json"
+    },
+    {
+      "path": "data/raw/vehicles/2026-09-05-new-2024.json",
+      "sha256": "bb6f88bb005cd8d7c059d1835be33c7d9ec352c2d000f8b50f67cb2c1f3380b3",
+      "bytes": 872261,
+      "object": "objects/bb6f88bb005cd8d7-2026-09-05-new-2024.json"
+    },
+    {
+      "path": "data/raw/vehicles/2026-09-05-stock-2010.json",
+      "sha256": "5871cb767b481ee2daab176c83a7db1a216e8dbf1b58e037c1b884eab14237a8",
+      "bytes": 890049,
+      "object": "objects/5871cb767b481ee2-2026-09-05-stock-2010.json"
+    },
+    {
+      "path": "data/raw/vehicles/2026-09-05-stock-2011.json",
+      "sha256": "ac4154d58fc658633b3dcffe487a57f5a584ff2907a5bae0fe17684cae363a06",
+      "bytes": 890522,
+      "object": "objects/ac4154d58fc65863-2026-09-05-stock-2011.json"
+    },
+    {
+      "path": "data/raw/vehicles/2026-09-05-stock-2012.json",
+      "sha256": "8efca2f2e2222221acbf3f4a8c1cc1419018b986050e56581dd65e49cf596f89",
+      "bytes": 891003,
+      "object": "objects/8efca2f2e2222221-2026-09-05-stock-2012.json"
+    },
+    {
+      "path": "data/raw/vehicles/2026-09-05-stock-2013.json",
+      "sha256": "0211a5ff3427937ade50426f76f6192556686d53a1f9417b3f40e0b8b55be7d0",
+      "bytes": 891300,
+      "object": "objects/0211a5ff3427937a-2026-09-05-stock-2013.json"
+    },
+    {
+      "path": "data/raw/vehicles/2026-09-05-stock-2014.json",
+      "sha256": "b270bca7985c300cafdb9555f2255d53c36c988c7dce09c76f2f9a146ebb5794",
+      "bytes": 891620,
+      "object": "objects/b270bca7985c300c-2026-09-05-stock-2014.json"
+    },
+    {
+      "path": "data/raw/vehicles/2026-09-05-stock-2015.json",
+      "sha256": "141ec686d7e9f679d134ba4270c8c59535ee5fe1eb2df88980a98b0afebbf8b5",
+      "bytes": 891965,
+      "object": "objects/141ec686d7e9f679-2026-09-05-stock-2015.json"
+    },
+    {
+      "path": "data/raw/vehicles/2026-09-05-stock-2016.json",
+      "sha256": "b515bee85654d4c884d90c926979be9432cabf752091a51c47782f135c9e5ad2",
+      "bytes": 892409,
+      "object": "objects/b515bee85654d4c8-2026-09-05-stock-2016.json"
+    },
+    {
+      "path": "data/raw/vehicles/2026-09-05-stock-2017.json",
+      "sha256": "d31e20750de8220b89690468de1e2753f87343f2e680c9ae61ab8cad3b822b33",
+      "bytes": 892908,
+      "object": "objects/d31e20750de8220b-2026-09-05-stock-2017.json"
+    },
+    {
+      "path": "data/raw/vehicles/2026-09-05-stock-2018.json",
+      "sha256": "00180c09e97e17e176b46aeec031739d25e19c272d3cfba7f2d072def7f20178",
+      "bytes": 893506,
+      "object": "objects/00180c09e97e17e1-2026-09-05-stock-2018.json"
+    },
+    {
+      "path": "data/raw/vehicles/2026-09-05-stock-2019.json",
+      "sha256": "c2082d1999706c7d45e600a61862465b82c1e95928106c358af308264920c7a9",
+      "bytes": 894220,
+      "object": "objects/c2082d1999706c7d-2026-09-05-stock-2019.json"
+    },
+    {
+      "path": "data/raw/vehicles/2026-09-05-stock-2020.json",
+      "sha256": "18eb6b6213d72e94e53620771d9e743007f737674fa2265b5effbbd4242dffc6",
+      "bytes": 895363,
+      "object": "objects/18eb6b6213d72e94-2026-09-05-stock-2020.json"
+    },
+    {
+      "path": "data/raw/vehicles/2026-09-05-stock-2021.json",
+      "sha256": "8dc25fb9cca9d9ab353e61fb560151e89a5cae2b04d121ded932d3b417924829",
+      "bytes": 897116,
+      "object": "objects/8dc25fb9cca9d9ab-2026-09-05-stock-2021.json"
+    },
+    {
+      "path": "data/raw/vehicles/2026-09-05-stock-2022.json",
+      "sha256": "7e7185bde5042733c61d3a1ffeb5d4c39a57566ef58361303da3eb65a350dfc2",
+      "bytes": 898458,
+      "object": "objects/7e7185bde5042733-2026-09-05-stock-2022.json"
+    },
+    {
+      "path": "data/raw/vehicles/2026-09-05-stock-2023.json",
+      "sha256": "86032e0c2f3d6f9e78fc877b22fd0d1980751e103200e4c0db6fdc6256d189aa",
+      "bytes": 899558,
+      "object": "objects/86032e0c2f3d6f9e-2026-09-05-stock-2023.json"
+    },
+    {
+      "path": "data/raw/vehicles/2026-09-05-stock-2024.json",
+      "sha256": "d23c76e405a2b315c2c599d8aa14152638542a914cf427db8a08a9bbbabb3e7f",
+      "bytes": 900622,
+      "object": "objects/d23c76e405a2b315-2026-09-05-stock-2024.json"
+    },
+    {
+      "path": "data/releases/pending.json",
+      "sha256": "e4230c0feae9f68a333dbbac0925f9a4c79e54b8edba61eac9ae2c62d08a0ab5",
+      "bytes": 2216,
+      "object": "objects/e4230c0feae9f68a-pending.json"
+    },
+    {
+      "path": "data/safety/crime-accused-cantons.json",
+      "sha256": "41c2a2a26975578513f3c6c1a1e00801261e1f61edbc51ec4a404cb22d836a33",
+      "bytes": 2494264,
+      "object": null
+    },
+    {
+      "path": "data/safety/crime-accused-switzerland.json",
+      "sha256": "8e393c125c0552d60ebe785559b9136a2af86ea5df8af2a8cb82beb315b61c10",
+      "bytes": 532798,
+      "object": "objects/8e393c125c0552d6-crime-accused-switzerland.json"
+    },
+    {
+      "path": "data/safety/crime-cantons.json",
+      "sha256": "83b721749c6107d7c2bdc3582f0cee0d89799056d58ee29831d1f15b99e62f86",
+      "bytes": 46952,
+      "object": "objects/83b721749c6107d7-crime-cantons.json"
+    },
+    {
+      "path": "data/safety/crime-offences-cantons.json",
+      "sha256": "3cd74c2fb4610e142116e6acb53695abe68942cc7aad0728af81f27578440b19",
+      "bytes": 1754720,
+      "object": "objects/3cd74c2fb4610e14-crime-offences-cantons.json"
+    },
+    {
+      "path": "data/safety/violent-crime-cantons.json",
+      "sha256": "2187b56f822bd5e0f6e59e43b7595083fa8a7024c2877376bf77ab84b14fc759",
+      "bytes": 37219,
+      "object": "objects/2187b56f822bd5e0-violent-crime-cantons.json"
+    },
+    {
+      "path": "data/scenarios/population-scenarios-cantons.json",
+      "sha256": "e7ea546816e97e15352c5e8cdf5ba8ec59ebf026f41ae6cf45bd042379751165",
+      "bytes": 336702,
+      "object": "objects/e7ea546816e97e15-population-scenarios-cantons.json"
+    },
+    {
+      "path": "data/scenarios/population-scenarios-switzerland.json",
+      "sha256": "27f2fa37d7a1f1ff8c90445a2e2af3157c558b01a9ba5dbdd1ab8739cf5b2261",
+      "bytes": 13053,
+      "object": "objects/27f2fa37d7a1f1ff-population-scenarios-switzerland.json"
+    }
+  ],
+  "counts": {
+    "sources": 310,
+    "archived_public": 293,
+    "repo_pinned_only": 17
+  }
+}
