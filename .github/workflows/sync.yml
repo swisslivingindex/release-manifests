@@ -1,5 +1,7 @@
 # Self-sync: pull new release manifests + corrections from the live archive (all public data).
 # No secrets — GITHUB_TOKEN pushes to this repo only.
+# Fix 2026-09-17: the site's bot protection answers the default "Python-urllib" user agent with HTTP 403, so every
+# request now sends an identified user agent, and transient errors are retried.
 name: Sync manifests from live archive
 on:
   schedule:
@@ -11,22 +13,37 @@ jobs:
   sync:
     runs-on: ubuntu-latest
     timeout-minutes: 10
+    env:
+      SLI_UA: 'Mozilla/5.0 SwissLivingIndex release-manifests-sync (+https://github.com/swisslivingindex/release-manifests; info@swisslivingindex.ch)'
     steps:
-      - uses: actions/checkout@v5
+      - uses: actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09 # v5 (pinned by SHA)
       - name: Pull manifests from swisslivingindex.ch/archive
         run: |
           set -e
-          curl -sf https://swisslivingindex.ch/archive/index.json -o releases-index.json
+          curl -sf --retry 3 --retry-delay 5 -A "$SLI_UA" https://swisslivingindex.ch/archive/index.json -o releases-index.json
           python3 - <<'PY'
-          import json, os, urllib.request
+          import json, os, time, urllib.request
+          UA = os.environ['SLI_UA']
+          def fetch(url, dest, tries=3):
+              for i in range(tries):
+                  try:
+                      req = urllib.request.Request(url, headers={'User-Agent': UA, 'Accept': 'application/json'})
+                      with urllib.request.urlopen(req, timeout=60) as r, open(dest, 'wb') as f:
+                          f.write(r.read())
+                      return
+                  except Exception as e:
+                      if i == tries - 1: raise
+                      print('retry', url, e); time.sleep(5 * (i + 1))
           idx = json.load(open('releases-index.json'))
+          added = 0
           for r in idx['releases']:
               rel = r['release']; d = f'manifests/{rel}'
               if not os.path.exists(f'{d}/manifest.json'):
                   os.makedirs(d, exist_ok=True)
-                  urllib.request.urlretrieve(f'https://swisslivingindex.ch/archive/{rel}/manifest.json', f'{d}/manifest.json')
-                  print('added', rel)
-          json.dump({'corrections': idx.get('corrections_register', [])}, open('corrections.json','w'), indent=1)
+                  fetch(f'https://swisslivingindex.ch/archive/{rel}/manifest.json', f'{d}/manifest.json')
+                  print('added', rel); added += 1
+          json.dump({'corrections': idx.get('corrections_register', [])}, open('corrections.json', 'w'), indent=1)
+          print(f'{len(idx["releases"])} releases in live archive, {added} new manifest(s) added')
           PY
       - name: Commit if changed
         run: |
