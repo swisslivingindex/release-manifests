@@ -8,6 +8,14 @@
   "corrections_register": [],
   "releases": [
     {
+      "release": "SLI-2026-09-25.1",
+      "created": "2026-09-25T10:22:13.794Z",
+      "fingerprint": "d1280d99e90a970fa0f1bc179e77b8f1d1b8a621892435f750d443d58ca87b94",
+      "git_commit": "8960595605785aa0356721e86872fd72edee992a",
+      "sources": 1358,
+      "url": "/archive/SLI-2026-09-25.1/manifest.json"
+    },
+    {
       "release": "SLI-2026-09-24.2",
       "created": "2026-09-24T10:17:45.341Z",
       "fingerprint": "18b3422e21b44d6820a379beb619fc54e8b58b95f925a7ecf89d624996e192df",
