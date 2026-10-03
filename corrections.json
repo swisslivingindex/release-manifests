@@ -1,3 +1,21 @@
 {
- "corrections": []
+ "corrections": [
+  {
+   "date": "2026-10-02",
+   "class": "value correction",
+   "metric": "premium_adult, premium_young_adult, premium_child",
+   "summary": "Health-insurance premiums: the canton figures labelled 'standard model (free choice of doctor)' were averages of other insurance models (BAG tariff type TAR-DIV) and about 10-13% too low (e.g. Zurich adult 2026: CHF 532.73 shown, CHF 591.21 correct). Recomputed from the official BAG premium data for 2026 and 2027; BAG's own average premium per canton added.",
+   "source": "BAG / FOPH, Pr\u00e4mien_CH.csv and Archiv_Praemien_2026.zip (opendata.swiss), praemienregionen_<year>.xlsx (priminfo.admin.ch)",
+   "release": "next release after 2026-10-02"
+  },
+  {
+   "date": "2026-10-03",
+   "dataset": "data/cost/household-budget.json",
+   "field": "types.* (BFS HABE household budget lines used by the move calculator)",
+   "was": "asset 28945173 (je-f-20.02.01.00.01, 2023 release) read via sheet codes '01','21','32','41','33' \u2014 not the household-type table; 'single' was not working-age singles",
+   "now": "T20.02.01.00.13 by household type (je-f-20.02.01.00.13, resolved by order number each run), columns located by header labels; newest period excluding the pandemic period 2020\u20132021 (currently 2018\u20132019)",
+   "why": "source pointed at a fixed asset and a fragile sheet mapping; newer BFS releases exist; 2020\u20132021 consumption depressed by COVID-19 restrictions",
+   "impact": "single: social insurance 464\u2192748, transport 406\u2192508; family: basic health 830\u21921026; retiree couple: several lines; all households and couples within 20 %"
+  }
+ ]
 }
