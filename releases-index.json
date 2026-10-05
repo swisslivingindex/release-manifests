@@ -26,6 +26,254 @@
   ],
   "releases": [
     {
+      "release": "SLI-2026-10-05.31",
+      "created": "2026-10-05T16:10:52.837Z",
+      "fingerprint": "c238320e7bc62881f18e8fd564562674a5765902833e51b73dc5e0bb244370c4",
+      "git_commit": "b97a57bd0fe959c8e42429670a8b1211641eed98",
+      "sources": 1891,
+      "url": "/archive/SLI-2026-10-05.31/manifest.json"
+    },
+    {
+      "release": "SLI-2026-10-05.30",
+      "created": "2026-10-05T15:29:00.912Z",
+      "fingerprint": "3c8741f3d178eb13ec42fce8f812136760a4498a468ac2e78209045a5b948917",
+      "git_commit": "8b96810c3cd4686834c271b25160d7a1b96fc8c6",
+      "sources": 1891,
+      "url": "/archive/SLI-2026-10-05.30/manifest.json"
+    },
+    {
+      "release": "SLI-2026-10-05.29",
+      "created": "2026-10-05T15:28:32.226Z",
+      "fingerprint": "723cef2e641ef4a752ed874aaea5ccd3d6ff16dc7b0e7e3fa0839813480e4a35",
+      "git_commit": "8b96810c3cd4686834c271b25160d7a1b96fc8c6",
+      "sources": 1891,
+      "url": "/archive/SLI-2026-10-05.29/manifest.json"
+    },
+    {
+      "release": "SLI-2026-10-05.28",
+      "created": "2026-10-05T15:28:00.162Z",
+      "fingerprint": "84e8aab3aaee39ee2c85c3e0c4e536a1d66e51c8b2d1672419d31956cdf6e833",
+      "git_commit": "8b96810c3cd4686834c271b25160d7a1b96fc8c6",
+      "sources": 1891,
+      "url": "/archive/SLI-2026-10-05.28/manifest.json"
+    },
+    {
+      "release": "SLI-2026-10-05.27",
+      "created": "2026-10-05T15:07:57.181Z",
+      "fingerprint": "8ef8774ca7ce38a56be62972cc5f491e6809deb65a77b022893becf43c221fb0",
+      "git_commit": "5865ed5b96050f22f12143a238528dccc2325eda",
+      "sources": 1827,
+      "url": "/archive/SLI-2026-10-05.27/manifest.json"
+    },
+    {
+      "release": "SLI-2026-10-05.26",
+      "created": "2026-10-05T15:04:09.203Z",
+      "fingerprint": "bde8d2aa1c9b0523d3aac9c30e786f6a794d36945ca0f0c1663093dd168855ed",
+      "git_commit": "45a2c9d33d4bdef4ec3142c330c1226b0e65fc6e",
+      "sources": 1827,
+      "url": "/archive/SLI-2026-10-05.26/manifest.json"
+    },
+    {
+      "release": "SLI-2026-10-05.25",
+      "created": "2026-10-05T14:59:29.404Z",
+      "fingerprint": "406ed68be9ee313a2d20cbcc8c90d9ab028fa159dbd0df25f3dd0311b526bf9e",
+      "git_commit": "145e7fefc3f3d79fdcc6cd4c365871ef91a88c62",
+      "sources": 1827,
+      "url": "/archive/SLI-2026-10-05.25/manifest.json"
+    },
+    {
+      "release": "SLI-2026-10-05.24",
+      "created": "2026-10-05T14:57:56.875Z",
+      "fingerprint": "8df039c462601cbea7ca164e5c445137710464565fec9ef4af186e3a2cf9e43b",
+      "git_commit": "145e7fefc3f3d79fdcc6cd4c365871ef91a88c62",
+      "sources": 1825,
+      "url": "/archive/SLI-2026-10-05.24/manifest.json"
+    },
+    {
+      "release": "SLI-2026-10-05.23",
+      "created": "2026-10-05T14:55:41.916Z",
+      "fingerprint": "a350b13c01a7f531f94b09200f26b9f5d69268923fe8b5de12000c9dd04886b0",
+      "git_commit": "145e7fefc3f3d79fdcc6cd4c365871ef91a88c62",
+      "sources": 1825,
+      "url": "/archive/SLI-2026-10-05.23/manifest.json"
+    },
+    {
+      "release": "SLI-2026-10-05.22",
+      "created": "2026-10-05T14:53:14.425Z",
+      "fingerprint": "f6acadf3c71ae8dcd7252276d7ab2c01a206e2cd8e566b0541209a419ef341a6",
+      "git_commit": "145e7fefc3f3d79fdcc6cd4c365871ef91a88c62",
+      "sources": 1825,
+      "url": "/archive/SLI-2026-10-05.22/manifest.json"
+    },
+    {
+      "release": "SLI-2026-10-05.21",
+      "created": "2026-10-05T14:36:52.254Z",
+      "fingerprint": "88ff496921091fe0baf3bcf11f63519b3a154e754af1d27501c11fa83362bb8d",
+      "git_commit": "eaa152705c1cb303f28544afd6eb9b819a18674f",
+      "sources": 1825,
+      "url": "/archive/SLI-2026-10-05.21/manifest.json"
+    },
+    {
+      "release": "SLI-2026-10-05.20",
+      "created": "2026-10-05T14:26:10.423Z",
+      "fingerprint": "0387c8826871b9b50ebeea72e91fd2ca1345ec67d263660f9f6fe25bbb9e8cc1",
+      "git_commit": "36598d7fc855ac422a6b6ebd4b72dd35352370a5",
+      "sources": 1820,
+      "url": "/archive/SLI-2026-10-05.20/manifest.json"
+    },
+    {
+      "release": "SLI-2026-10-05.19",
+      "created": "2026-10-05T14:21:38.402Z",
+      "fingerprint": "179ade2e6965bbcccf1cdc1ce2dfd92ff2e32023f14fada5d646bcdf68cc9ac1",
+      "git_commit": "36598d7fc855ac422a6b6ebd4b72dd35352370a5",
+      "sources": 1820,
+      "url": "/archive/SLI-2026-10-05.19/manifest.json"
+    },
+    {
+      "release": "SLI-2026-10-05.18",
+      "created": "2026-10-05T14:19:38.572Z",
+      "fingerprint": "e7ba510f6010b318535407b33f8a869b5b13065c7758286db6a6bd84b2d1626c",
+      "git_commit": "36598d7fc855ac422a6b6ebd4b72dd35352370a5",
+      "sources": 1820,
+      "url": "/archive/SLI-2026-10-05.18/manifest.json"
+    },
+    {
+      "release": "SLI-2026-10-05.17",
+      "created": "2026-10-05T14:19:01.427Z",
+      "fingerprint": "68fce7ba6e4ec9edda4eaf81ed9e7fa28806a87ae7fac0c4a5d4e65a248d5307",
+      "git_commit": "36598d7fc855ac422a6b6ebd4b72dd35352370a5",
+      "sources": 1820,
+      "url": "/archive/SLI-2026-10-05.17/manifest.json"
+    },
+    {
+      "release": "SLI-2026-10-05.16",
+      "created": "2026-10-05T14:16:26.751Z",
+      "fingerprint": "dee150ed7e6a584a46f8d796e512a0364fa6876c3193131bbec074879fcb8083",
+      "git_commit": "36598d7fc855ac422a6b6ebd4b72dd35352370a5",
+      "sources": 1819,
+      "url": "/archive/SLI-2026-10-05.16/manifest.json"
+    },
+    {
+      "release": "SLI-2026-10-05.15",
+      "created": "2026-10-05T14:15:18.126Z",
+      "fingerprint": "15b36e9520387f04a84e2bf38bf2f9f3b067e4c45835ef32ded6d36bd71c109a",
+      "git_commit": "36598d7fc855ac422a6b6ebd4b72dd35352370a5",
+      "sources": 1819,
+      "url": "/archive/SLI-2026-10-05.15/manifest.json"
+    },
+    {
+      "release": "SLI-2026-10-05.14",
+      "created": "2026-10-05T13:57:14.415Z",
+      "fingerprint": "2d8dd35c1557471c7375405cce858ad5b22ff95c037e06e6ee6826938644462f",
+      "git_commit": "6980cd1875c4ebb986eb5b732349ede7cbf3d861",
+      "sources": 1818,
+      "url": "/archive/SLI-2026-10-05.14/manifest.json"
+    },
+    {
+      "release": "SLI-2026-10-05.13",
+      "created": "2026-10-05T13:56:16.979Z",
+      "fingerprint": "12d85fb8681d50e55fe5d942b1a967d14c3643014ab98cbfa0c4e15e46393942",
+      "git_commit": "6980cd1875c4ebb986eb5b732349ede7cbf3d861",
+      "sources": 1818,
+      "url": "/archive/SLI-2026-10-05.13/manifest.json"
+    },
+    {
+      "release": "SLI-2026-10-05.12",
+      "created": "2026-10-05T13:46:57.195Z",
+      "fingerprint": "7d417efdc953f6237b2dfd68f6afcb344be0e2a06ba6c6b002a24d0736f917f2",
+      "git_commit": "eaf74fc5b5597b0a2d710bfee90b22cce8ef6c65",
+      "sources": 1814,
+      "url": "/archive/SLI-2026-10-05.12/manifest.json"
+    },
+    {
+      "release": "SLI-2026-10-05.11",
+      "created": "2026-10-05T13:45:51.841Z",
+      "fingerprint": "14e936fae72658bcfa02b0dc3120d8dca5247c5310c6fa31bc42e7b67fa58dda",
+      "git_commit": "eaf74fc5b5597b0a2d710bfee90b22cce8ef6c65",
+      "sources": 1814,
+      "url": "/archive/SLI-2026-10-05.11/manifest.json"
+    },
+    {
+      "release": "SLI-2026-10-05.10",
+      "created": "2026-10-05T13:43:55.881Z",
+      "fingerprint": "698ca06047372d377df54a083afaef46fdb2d0d9f2137dbb741ab107db43a7fa",
+      "git_commit": "eaf74fc5b5597b0a2d710bfee90b22cce8ef6c65",
+      "sources": 1814,
+      "url": "/archive/SLI-2026-10-05.10/manifest.json"
+    },
+    {
+      "release": "SLI-2026-10-05.9",
+      "created": "2026-10-05T13:39:17.753Z",
+      "fingerprint": "ef1505a17bae83485773f2e0c4a5ecab1fb96e4a45c37ffd1936dd55cb1373b6",
+      "git_commit": "c6b4f1c145b7d1167964a20580b5a33911ec5d3d",
+      "sources": 1814,
+      "url": "/archive/SLI-2026-10-05.9/manifest.json"
+    },
+    {
+      "release": "SLI-2026-10-05.8",
+      "created": "2026-10-05T13:38:44.552Z",
+      "fingerprint": "2ea99d3bd40f7ccf57385d9f9739d567f4e1f30556d96de973a5cbf413af1d3d",
+      "git_commit": "5782633db4d0c78333022b2bdde7dd7718ab0c06",
+      "sources": 1814,
+      "url": "/archive/SLI-2026-10-05.8/manifest.json"
+    },
+    {
+      "release": "SLI-2026-10-05.7",
+      "created": "2026-10-05T13:36:01.958Z",
+      "fingerprint": "ddb8bbed18088023e6c9f0cbfd8b6fd2fa6db64504b7ee1aa945be9a13d1d70e",
+      "git_commit": "3944c8cf2db76aeac933c6ec06072acbe8869aee",
+      "sources": 1814,
+      "url": "/archive/SLI-2026-10-05.7/manifest.json"
+    },
+    {
+      "release": "SLI-2026-10-05.6",
+      "created": "2026-10-05T13:30:11.489Z",
+      "fingerprint": "04c29b6dcaa4d33be5d6a8eb9608f9163ae5c4483c49627d66c465358a468e36",
+      "git_commit": "37a990924ca8be4991fbf5d5320d98e7e49e65ca",
+      "sources": 1814,
+      "url": "/archive/SLI-2026-10-05.6/manifest.json"
+    },
+    {
+      "release": "SLI-2026-10-05.5",
+      "created": "2026-10-05T13:22:25.176Z",
+      "fingerprint": "1474d9f33bc08a58f3340cb377abb452a820d32a706eb6f1fdde85dbd3c67a31",
+      "git_commit": "a6dd85ff82ec4c1235f74cc7c987e4b1be284ae9",
+      "sources": 1814,
+      "url": "/archive/SLI-2026-10-05.5/manifest.json"
+    },
+    {
+      "release": "SLI-2026-10-05.4",
+      "created": "2026-10-05T13:21:53.610Z",
+      "fingerprint": "2aa48f7716b842ef310d253ecb10fa29a8da9f46b6ce4fee3f1502b82583bb06",
+      "git_commit": "a6dd85ff82ec4c1235f74cc7c987e4b1be284ae9",
+      "sources": 1814,
+      "url": "/archive/SLI-2026-10-05.4/manifest.json"
+    },
+    {
+      "release": "SLI-2026-10-05.3",
+      "created": "2026-10-05T13:19:24.743Z",
+      "fingerprint": "a41c8172c3ccf69d6361eb97ff38201e0684faf620d0d043a49d3d96560e451c",
+      "git_commit": "d4a9d75807d695c68c0a54dae5e7f07e628826c3",
+      "sources": 1814,
+      "url": "/archive/SLI-2026-10-05.3/manifest.json"
+    },
+    {
+      "release": "SLI-2026-10-05.2",
+      "created": "2026-10-05T13:00:45.417Z",
+      "fingerprint": "d3f48e03e18ea6654408b8eed25919762b024723b966cb54dae5c3e4370cc506",
+      "git_commit": "0bd0af4d8d4e8a751b1467c8072559d92a1b762c",
+      "sources": 1800,
+      "url": "/archive/SLI-2026-10-05.2/manifest.json"
+    },
+    {
+      "release": "SLI-2026-10-05.1",
+      "created": "2026-10-05T12:28:26.348Z",
+      "fingerprint": "0fcca66074fc514757b7db2425f5139b979f0af3a6f04c4af3e47e5f10adc7b8",
+      "git_commit": "ea6398efd7257bde89bbaf9270262b1c14d22246",
+      "sources": 1800,
+      "url": "/archive/SLI-2026-10-05.1/manifest.json"
+    },
+    {
       "release": "SLI-2026-10-04.1",
       "created": "2026-10-04T11:13:28.197Z",
       "fingerprint": "21e6ee50927f86b592879254ed0c95ba64e35e3a2ab76c1ce2f1af281c41a051",
