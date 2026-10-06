@@ -26,6 +26,38 @@
   ],
   "releases": [
     {
+      "release": "SLI-2026-10-06.4",
+      "created": "2026-10-06T09:48:25.932Z",
+      "fingerprint": "2f175e33b8a8f57176b04f111584526d70d9dd79aa64277ceffbf9e3040f85b5",
+      "git_commit": "4b8be628c3a97861a06cabca53eda995bb3401de",
+      "sources": 1901,
+      "url": "/archive/SLI-2026-10-06.4/manifest.json"
+    },
+    {
+      "release": "SLI-2026-10-06.3",
+      "created": "2026-10-06T07:35:09.482Z",
+      "fingerprint": "24f4533f8d2942cf562f4770a7214d48c9204f0136bd9677e54936f4ba316288",
+      "git_commit": "1aa403e1cf91ca0e9438674c6e2fda5029584d8a",
+      "sources": 1900,
+      "url": "/archive/SLI-2026-10-06.3/manifest.json"
+    },
+    {
+      "release": "SLI-2026-10-06.2",
+      "created": "2026-10-06T07:33:43.780Z",
+      "fingerprint": "992960533c3d7093fd4295c7e478507ed9898868702ff52eda6a52f8c9141b92",
+      "git_commit": "1aa403e1cf91ca0e9438674c6e2fda5029584d8a",
+      "sources": 1900,
+      "url": "/archive/SLI-2026-10-06.2/manifest.json"
+    },
+    {
+      "release": "SLI-2026-10-06.1",
+      "created": "2026-10-06T07:16:31.946Z",
+      "fingerprint": "b05c7085ae9bd12b0eca6b3cddd7f608e73ca0ae60b2e56d6c34ba8a0f342226",
+      "git_commit": "6a29c6a7808615b6d1b97d6539cab5597bb498fe",
+      "sources": 1892,
+      "url": "/archive/SLI-2026-10-06.1/manifest.json"
+    },
+    {
       "release": "SLI-2026-10-05.31",
       "created": "2026-10-05T16:10:52.837Z",
       "fingerprint": "c238320e7bc62881f18e8fd564562674a5765902833e51b73dc5e0bb244370c4",
