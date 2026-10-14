@@ -26,6 +26,22 @@
   ],
   "releases": [
     {
+      "release": "SLI-2026-10-14.2",
+      "created": "2026-10-14T11:57:36.425Z",
+      "fingerprint": "7c65a1479ffca72d07300eb5d53040c4d94f19d8c30cdf237de52bb9241fa070",
+      "git_commit": "8a401801bc4abcf6443fb97fab1e7a7508cddc79",
+      "sources": 5101,
+      "url": "/archive/SLI-2026-10-14.2/manifest.json"
+    },
+    {
+      "release": "SLI-2026-10-14.1",
+      "created": "2026-10-14T05:30:18.162Z",
+      "fingerprint": "7fc8e747f425892d5b4ac7992baaabff7e94465827a9cd85dd980ed75bd581ea",
+      "git_commit": "1420f0f1186684b7780d0cfb3337cf4be070b6b6",
+      "sources": 5084,
+      "url": "/archive/SLI-2026-10-14.1/manifest.json"
+    },
+    {
       "release": "SLI-2026-10-13.6",
       "created": "2026-10-13T09:33:21.290Z",
       "fingerprint": "5c9750d423540f8267b49f54ba7355d73e2e2c889d9f6309f161bf55e897b23b",
